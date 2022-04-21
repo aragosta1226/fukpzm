@@ -1,0 +1,245 @@
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+.left {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.main {
+	display: flex;
+	font-family: "Noto Sans JP";
+}
+
+textarea {
+	resize: none;
+	width: 500px;
+	height: 120px;
+	font-size: 12px;
+}
+
+.name {
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+
+#party_name {
+	border: 1px solid;
+	width: 200px;
+	height: 30px;
+	border-radius: 3px;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	margin-bottom: 10px;
+}
+
+#period {
+	border: 1px solid;
+	border-radius: 3px;
+	padding-left: 5px;
+	padding-bottom: 2px;
+}
+
+#free_meg {
+	border: 1px solid;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	width: 500px;
+	height: 70px;
+}
+
+.inquiry {
+	display: flex;
+}
+
+.in_lf {
+	margin-right: 10px;
+	width: 200px;
+}
+
+.plan_main {
+	display: flex;
+}
+
+.cal_st {
+	width: 500px;
+}
+
+.place {
+	display: flex;
+}
+
+.dj {
+	display: flex;
+}
+
+#dj_detail {
+	border: 1px solid;
+	font-size: 12px;
+	width: 350px;
+	height: 141px;
+}
+
+.detail_btn {
+	border: 1px solid #84a2d4;
+	border-radius: 7px;
+	width: 80px;
+	height: 32px;
+	color: #ffffff;
+	background-color: #84a2d4;
+}
+
+#save_btn {
+	border: 1px solid #66cdaa;
+	border-radius: 7px;
+	width: 80px;
+	height: 32px;
+	color: #ffffff;
+	background-color: #66cdaa;
+}
+
+#clear_btn {
+	border: 1px solid #808080;
+	border-radius: 7px;
+	width: 80px;
+	height: 32px;
+	color: #ffffff;
+	background-color: #808080;
+}
+
+#reserve_btn {
+	border: 1px solid #f08080;
+	border-radius: 7px;
+	width: 80px;
+	height: 32px;
+	color: #ffffff;
+	background-color: #f08080;
+}
+
+#add_btn {
+	border: 1px solid #fbca4d;
+	border-radius: 7px;
+	width: 80px;
+	height: 32px;
+	color: #ffffff;
+	background-color: #fbca4d;
+}
+
+.delete_btn {
+	border: 1px solid #808080;
+	border-radius: 7px;
+	width: 80px;
+	height: 32px;
+	color: #ffffff;
+	background-color: #808080;
+}
+
+#status {
+	border: none;
+	background-color: #ffffff;
+}
+
+.supplier_group {
+	border: 2px solid #8b968d;
+	width: 520px;
+	height: 580px;
+}
+
+.supplier {
+	display: flex;
+}
+
+.fc {
+	font-size: 0.5em !important;
+}
+
+.fc table {
+	font-size: 0.5em !important;
+}
+
+.cp_ipselect {
+	overflow: hidden;
+	width: 180px;
+	/* margin: 2em auto; */
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.cp_ipselect select {
+	width: 160px;
+	padding-right: 1em;
+	cursor: pointer;
+	text-indent: 0.01px;
+	text-overflow: ellipsis;
+	border: none;
+	outline: none;
+	background: transparent;
+	background-image: none;
+	box-shadow: none;
+	-webkit-appearance: none;
+	appearance: none;
+	font-size: 12px;
+}
+
+.cp_ipselect select::-ms-expand {
+	display: none;
+}
+
+.cp_ipselect.cp_sl02 {
+	position: relative;
+	border: 1px solid black;
+	border-radius: 2px;
+	background: #ffffff;
+}
+
+.cp_ipselect.cp_sl02::before {
+	position: absolute;
+	top: 0.8em;
+	right: 0.9em;
+	width: 0;
+	height: 0;
+	padding: 0;
+	content: '';
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid black;
+	pointer-events: none;
+}
+
+.cp_ipselect.cp_sl02:after {
+	position: absolute;
+	top: 0;
+	right: 2.5em;
+	bottom: 0;
+	width: 1px;
+	content: '';
+	border-left: 1px solid black;
+}
+
+.cp_ipselect.cp_sl02 select {
+	padding: 8px 38px 8px 8px;
+	color: black;
+}
+
+#map {
+	height: 50%;
+}

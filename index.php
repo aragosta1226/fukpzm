@@ -16,10 +16,21 @@
   レセプションパーティー,ホームパーティー,クローズパーティー,キャンプパーティー,partyplanner,
   party,sounddesign,eventplanner,福岡イベント,福岡パーティー,音響レンタル,懇親会,幹事代行,
   beachparty,homeparty,fashionshow,fukuokacity,福岡のパーティー絶対盛り上げるドットコム">
-  <link rel="stylesheet" href="./css/style_pzm.css">
+  <link rel="stylesheet" href="./css/style_top.css">
   <title>福岡のパーティー絶対盛り上げる.com</title>
 </head>
 <body>
+  <!---------------------------------------------------------------------------
+    * ヘッダー
+  ------------------------------------------------------------------------------>
+  <header id="header">
+    <h1>福岡のパーティー絶対盛り上げる.com</h1>
+    <nav>
+      <ul id="g-navi">
+        <li><a href="#">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
   <!---------------------------------------------------------------------------
     * メインビジュアル
   ------------------------------------------------------------------------------>
@@ -27,39 +38,35 @@
     <img src="./img/main.png" width="100%" height="100%" alt="福岡のパーティー絶対盛り上げるDJ機材">
     <h1 class="main_title">DoKoDeMo DJ</h1>
     <div class="text1">福岡のパーティー絶対盛り上げる.com</div>
-  </div> 
+  </div>
   <!-----------------------------------------------------------------------------
-    * NEWS
+    * ABOUT
   ------------------------------------------------------------------------------>
-  <section class="about" id="about"> 
-      <div class="inner">
-          <h2>簡単にDJを呼べます</h2>
-          <div class="about-box">
-              <div class="about-card-wrapper">
-                  <div class="about-card">
-                      <img src="./img/dj.png" alt="DJ">
-                      <p class="about1"><strong>どんなパーティーに<br>DJを呼べるの？</strong></p>
-                      <p class="about-coment">スペースさえあればどこでもDJがあなたのパーティーに出張い<br>たします。現役のDJがパーティーの規模にあったプランをご<br>提案します。どんなパーティーにDJを呼べるのかな？等、お<br>気軽にご相談ください。ホームパーティーももちろん可！</p>
-                  </div>
-                  <div class="about-card">
-                      <img src="./img/suguyoyaku.png" alt="予約">
-                      <p class="about1"><strong>スグに予約OK</strong></p>
-                      <p class="about-coment">急にパーティーすることになった、来週DJ頼んでみようか<br>な？等でも、DJのスケジュールが空いていれば、いつでも対応<br>可能です。まずはご相談ください。</p>
-                  </div>
-                  <div class="news-card">
-                      <img src="./img/itsudemo.png" alt="確認">
-                      <p class="about1"><strong>準備の状況確認が<br>いつでも出来る！</strong></p>
-                      <p class="about-coment">これまでいちいち電話やメールで把握しないといけなかった<br>準備の状況がいつでも簡単に確認できます。譲許確認が出来る事で<br>今まで面倒だった幹事の手間を減らします。</p>
-                  </div>
-              </div>
-              <a href="#" class="news-btn">お問い合わせはこちら</a>
-          </div>
-      </div>
-  </section>
+  <h2><strong>簡単にDJを呼べます</strong></h2>
+  <div class="contents">
+    <div class="item">
+      <img src="./img/dj.png" alt="DJ">
+      <p class="item_title"><strong>どんなパーティーに<br>DJを呼べるの？</strong></p>
+      <p class="item_text">スペースさえあればどこでもDJがあなたのパーティーに出張いたします。現役のDJがパーティーの規模にあったプランをご提案します。どんなパーティーにDJを呼べるのかな？等、お気軽にご相談ください。ホームパーティーももちろん可！</p>
+    </div>
+    <div class="item">
+      <img src="./img/suguyoyaku.png" alt="予約">
+      <p class="item_title"><strong>スグに予約OK</strong></p>
+      <p class="item_text">急にパーティーすることになった、来週DJ頼んでみようかな？等でも、DJのスケジュールが空いていれば、いつでも対応可能です。まずはご相談ください。</p>
+    </div>
+    <div class="item">
+      <img src="./img/itsudemo.png" alt="確認">
+      <p class="item_title"><strong>準備の状況確認が<br>いつでも出来る！</strong></p>
+      <p class="item_text">これまでいちいち電話やメールで把握しないといけなかった<br>準備の状況がいつでも簡単に確認できます。譲許確認が出来る事で<br>今まで面倒だった幹事の手間を減らします。</p>
+    </div>
+    </div>
+    <a href="#" class="">お問い合わせはこちら</a>
+    </div>
+  </div>
   <h2><strong>サービスについて</strong></h2>
   <div class="flex-item">
-    <div class="flex-item__img"><img src="./img/dj2.png" alt=""></div>
-    <div class="flex-item__txt">
+    <div class="flex-item_img"><img src="./img/dj2.png" alt=""></div>
+    <div class="flex-item_txt">
       <h2><strong>お客様のパーティーのニーズにあったDJを手配します。</strong></h2>
       <p><strong>現役の実績のあるプロのDJが対応します！</strong></p>
       <p>どんなシーンでも対応力のあるDJをご用意いたします。在籍しているDJは、さまざ<br>
@@ -134,7 +141,7 @@
   <!---------------------------------------------------------------------------
       * ユーザー登録フォーム
   ------------------------------------------------------------------------------>
-  <h2><strong>まずはお気軽にお問い合わせください！</strong></h2>
+  <h2><a href="#"><strong>まずはお気軽にお問い合わせください！</strong></a></h2>
   <form action="" method="POST">
     <p>
       <label for="">セイ：</label>
@@ -169,8 +176,17 @@
       * ユーザー登録フォーム
   ------------------------------------------------------------------------------>
   <h2><strong>SNSでも相談受付してます！！</strong></h2>
-  <a href="//timeline.line.me/social-plugin/share?url=シェアするページのURL&text=" target="_blank" rel="nofollow noopener noreferrer">
-    LINE</a>
+  <!-- LINE -->
+  <p><strong>LINE</strong></p>
+  <p>LINEでも相談受付中です！！</p>
+  <div class="line-it-button" data-lang="ja" data-type="friend" data-env="REAL"   data-lineId="@835gurzh" style="display: none;"></div>
+  <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+  <!-- Twitter -->
+  <p><strong>Twitter</strong></p>
+  <p>TwitterのDMでも相談受付中！！</p>
+  <a href="https://twitter.com/fukuokapzm?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @fukuokapzm</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <footer><p>Copyright 2022 福岡のパーティー絶対盛り上げる.com</p></footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/5-1-5.js"></script>
 </body>
 </html>

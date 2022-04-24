@@ -33,14 +33,19 @@ section {
     padding: 300px 0;
 }
 
-/* .contents {
-    display: flex;
-    flex-wrap: wrap;
+.contents {
+    list-style: none;
+}
+.contents li {
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    color: #fff;
+    background: #62BEB6;
+    list-style: none;
     justify-content: space-around;
-    width: 60%;
-    margin: 0 auto;
-    padding-top: 30px;
-} */
+    display: flex;
+}
 
 .item {
     width: calc(100% / 3 - 30px);

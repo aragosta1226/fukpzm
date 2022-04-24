@@ -48,21 +48,28 @@
     <div class="item">
       <img src="./img/dj.png" alt="DJ">
       <p class="item_title"><strong>どんなパーティーに<br>DJを呼べるの？</strong></p>
-      <p class="item_text">スペースさえあればどこでもDJがあなたのパーティーに出張いたします。現役のDJがパーティーの規模にあったプランをご提案します。どんなパーティーにDJを呼べるのかな？等、お気軽にご相談ください。ホームパーティーももちろん可！</p>
+      <p class="item_text">スペースさえあればどこでもDJがあなたのパーティーに出張いたしま<br>
+      す。現役のDJがパーティーの規模にあったプランをご提案します。<br>
+      どんなパーティーにDJを呼べるのかな？等、お気軽にご相談<br>
+      ください。ホームパーティーももちろん可！</p>
     </div>
     </li>
-    <li></li>
+    <li>
     <div class="item">
       <img src="./img/suguyoyaku.png" alt="予約">
-      <p class="item_title"><strong>スグに予約OK</strong></p>
-      <p class="item_text">急にパーティーすることになった、来週DJ頼んでみようかな？等でも、DJのスケジュールが空いていれば、いつでも対応可能です。まずはご相談ください。</p>
+      <p class="item_title"><strong>スグに<br>予約OK</strong></p>
+      <p class="item_text">急にパーティーすることになった、来週DJ頼んでみようかな？<br>
+        そういう時でもDJのスケジュールが空いていれば、<br>
+        いつでも対応可能です。まずはご相談ください。</p>
     </div>
     </li>
     <li>
     <div class="item">
       <img src="./img/itsudemo.png" alt="確認">
       <p class="item_title"><strong>準備の状況確認が<br>いつでも出来る！</strong></p>
-      <p class="item_text">これまでいちいち電話やメールで把握しないといけなかった<br>準備の状況がいつでも簡単に確認できます。譲許確認が出来る事で<br>今まで面倒だった幹事の手間を減らします。</p>
+      <p class="item_text">これまでいちいち電話やメールで把握しないといけなかった<br>
+      準備の状況がいつでも簡単に確認できます。準備の確認<br>
+      が出来る事で今まで面倒だった幹事の手間を減らします。</p>
     </div>
     </li>
   </ul>

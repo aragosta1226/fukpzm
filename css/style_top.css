@@ -35,42 +35,19 @@ section {
 
 .contents {
     list-style: none;
-}
-.contents li {
-    width: 100px;
-    height: 100px;
-    margin: 2px;
-    color: #fff;
-    background: #62BEB6;
-    list-style: none;
-    justify-content: space-around;
     display: flex;
 }
 
-.item {
-    width: calc(100% / 3 - 30px);
-    margin-bottom: 30px;
-    padding: 50px 10px;
+.contents li {
+    /* width: 100px;
+    height: 100px; */
+    /* margin: 2px; */
+    /* color: #fff; */
+    list-style: none;
+    justify-content: center;
     text-align: center;
 }
-/* 
-.contents {
-color: #05161a;
-font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MS PGothic", arial, helvetica, sans-serif;
-word-wrap: break-word;
-line-height: 1.6;
-text-align: center;
-padding: 0;
-border: 0;
-outline: 0;
-font-size: 100%;
-vertical-align: baseline;
-background: transparent;
-box-sizing: border-box;
-margin: 0 auto;
-width: 100%;
-overflow: hidden;
-padding-right: 0;
-padding-left: 0;
-max-width: 100%;
-} */
+
+.item {
+    justify-content: center;
+}

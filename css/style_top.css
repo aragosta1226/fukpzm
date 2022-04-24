@@ -51,3 +51,72 @@ section {
 .item {
     justify-content: center;
 }
+
+.flex-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.flex-item_txt {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    display: block;
+	font-size: 21px;
+	width: 300px;
+	height: 60px;
+	color: black;
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 10px 10px;
+	text-align: center;
+	border: 1px solid #4a4a4a;
+	border-radius: 5px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.7);
+	margin-bottom: 48px;
+    list-style: none;
+    line-height: 3;
+    text-decoration: none;
+}
+
+.sns {
+    list-style: none;
+    display: flex;
+}
+.sns li {
+    margin: 0 auto;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+}
+
+.form_title {
+    text-align: center;
+}
+
+form {
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer p {
+    text-align: center;
+    justify-content: center;
+}

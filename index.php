@@ -7,10 +7,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta property="og:url" content="https://fukpzm.com/">
-  <meta property="og:image" content="./img/pzmlogo.png">
+  <meta property="og:image" content="./img/main.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="「福岡のパーティーを絶対に盛り上げる.com」
-  福岡でパーティーを行う際に弊社をご利用いただければ必ず盛り上げます。
+  <meta name="description" content="福岡でパーティーを行う際に弊社をご利用いただければ必ず盛り上げます。
   結婚式の２次会、懇親会、文化祭、企業のパーティーなど、どこでも出張可能です。
   会場準備や音響機材・スピーカーのご用意、イベント企画までなんでもご相談ください。">
   <meta name="keywords" content="fukuoka,出張dj,dj派遣,福岡,fukuokaparty,
@@ -27,7 +26,7 @@
     * ヘッダー
   ------------------------------------------------------------------------------>
   <header id="header">
-    <img src="./img/logo.png" alt="">
+    <img src="./img/headerlogo.png" alt="">
     <nav>
       <ul id="g-navi">
         <li><a class="top" href="#form">お問い合わせ</a></li>

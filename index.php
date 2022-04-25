@@ -44,7 +44,7 @@
   <ul class="contents">
     <li>
     <div class="item">
-      <img src="./img/dj.png" alt="DJ">
+      <img src="./img/dj.png" width="393" height="393" alt="DJ">
       <p class="item_title"><strong>どんなパーティーに<br>DJを呼べるの？</strong></p>
       <p class="item_text">スペースさえあればどこでもDJがあなたのパーティーに出張いたしま<br>
       す。現役のDJがパーティーの規模にあったプランをご提案します。<br>
@@ -54,7 +54,7 @@
     </li>
     <li>
     <div class="item">
-      <img src="./img/suguyoyaku.png" alt="予約">
+      <img src="./img/suguyoyaku.png" width="393" height="393" alt="予約">
       <p class="item_title"><strong>スグに<br>予約OK</strong></p>
       <p class="item_text">急にパーティーすることになった、来週DJ頼んでみようかな？<br>
         そういう時でもDJのスケジュールが空いていれば、<br>
@@ -63,7 +63,7 @@
     </li>
     <li>
     <div class="item">
-      <img src="./img/itsudemo.png" alt="確認">
+      <img src="./img/itsudemo.png" width="393" height="393" alt="確認">
       <p class="item_title"><strong>準備の状況確認が<br>いつでも出来る！</strong></p>
       <p class="item_text">これまでいちいち電話やメールで把握しないといけなかった<br>
       準備の状況がいつでも簡単に確認できます。準備の確認<br>

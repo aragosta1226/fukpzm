@@ -10,6 +10,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* background: #7CFC00; */
     background: #17CB48;
     text-align: center;
     padding: 20px;
@@ -87,6 +88,7 @@ section {
     list-style: none;
     justify-content: center;
     text-align: center;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 767px) {

@@ -74,7 +74,7 @@
     <div>
     <a href="#form">お問い合わせはこちら</a>
     </div>
-  <h2><strong>サービスについて</strong></h2>
+  <h2 class="midashi"><strong>サービスについて</strong></h2>
   <h2><strong>お客様のパーティーのニーズにあったDJを手配します。</strong></h2>
   <div class="flex-item">
     <div class="flex-item_img"><img src="./img/dj2.png" alt=""></div>
@@ -86,7 +86,7 @@
       か、お客様のイメージをきちんとヒアリングいたしますのでご安心ください。</p>
     </div>
   </div>
-  <h2><strong>当社が選ばれる理由</strong></h2>
+  <h2 class="midashi"><strong>当社が選ばれる理由</strong></h2>
   <div>
     <div>
       <p>point 1</p>
@@ -104,7 +104,7 @@
     </div>
   </div>
   <a href="#form">お問い合わせはこちら</a>
-  <h2><strong>ご相談の流れ</strong></h2>
+  <h2 class="midashi"><strong>ご相談の流れ</strong></h2>
   <div>
     <div>
       <p>Step 1</p>
@@ -136,8 +136,8 @@
     </div>
   </div>
   <a href="#form">お問い合わせはこちら</a>
-  <h2><strong>よくあるご質問</strong></h2>
-  <div>
+  <h2 class="midashi"><strong>よくあるご質問</strong></h2>
+  <!-- <div>
     <div>
       <h2><strong>イベントの知識が全くないのですが、大丈夫ですか？</strong></h2>
       <p>イベント開催について丁寧にご説明いたしますので、ご安心ください。<br>
@@ -148,41 +148,91 @@
       <p>もちろん可能です！金額については、まずはお見積もりからさせて頂きますのでご納得頂いた上で<br>
         準備に入ります。弊社は野外イベントのノウハウなどもございますのでご安心ください。</p>
     </div>
-  </div>
+  </div> -->
+  <ul class="accordion-area">
+    <li class="onayami_list">
+      <section class="onayami">
+        <h3 class="title">イベントの知識が全くないのですが、大丈夫ですか？</h3>
+        <div class="box">
+          <p>イベント開催について丁寧にご説明いたしますので、ご安心ください。<br>
+        オプションで会場準備からお手伝いすることも可能です。不安なことは一緒に解決して行きましょう！！</p>
+        </div>
+      </section>
+    </li>
+    <li class="onayami_list">
+      <section class="onayami">
+        <h3 class="title">電源がないところで開催したいのですが、可能ですか？</h3>
+        <div class="box">
+          <p>もちろん可能です！金額については、まずはお見積もりからさせて頂きますのでご納得頂いた上で<br>
+        準備に入ります。弊社は野外イベントのノウハウなどもございますのでご安心ください。</p>
+        </div>
+      </section>
+    </li>
+  </ul>
   <!---------------------------------------------------------------------------
-      * ユーザー登録フォーム
+      * お問い合わせフォーム
   ------------------------------------------------------------------------------>
-  <a name="form" id="form"><strong>まずはお気軽にお問い合わせください！</strong></a>
-  <form action="" method="POST">
-    <p>
-      <label for="">セイ：</label>
-      <input class="mado" type="text" name="name" required="required">
-    </p>
-    <p>
-      <label for="">メイ：</label>
-      <input class="mado" type="text" name="name" required="required">
-    </p>
-    <p>
-      <label for="email">メールアドレス：</label>
-      <input class="mado" type="email" name="email" required="required">
-    </p>
-    <p>
-    <label for="genre">お問い合わせ種別：</label>
-    <select class="genre" name="genre" required>
-      <option value="HIPHOP/R&B">選択してください。</option>
-      <option value="REGGAE">サービスについてのお問い合わせ</option>
-      <option value="EDM">機材レンタルに関してのお問い合わせ</option>
-      <option value="ANISON">その他</option>
-    </select>
-    </p>
-    <p>
-    <label for="genre">お問い合わせ内容：</label>
-    <textarea name="" id="" cols="30" rows="10"></textarea>
-    </p>
-    <p>
-      <input class="btn" type="submit" value="送信">
-    </p>
-  </form>
+  <!-- <div id="form"> -->
+  <h2><strong>まずはお気軽にお問い合わせください！</strong></h2>
+   <!-- <form action="" method="POST">
+      <p>
+        <label for="">セイ：</label>
+        <input class="mado" type="text" name="name" required="required">
+      </p>
+      <p>
+        <label for="">メイ：</label>
+        <input class="mado" type="text" name="name" required="required">
+      </p>
+      <p>
+        <label for="email">メールアドレス：</label>
+        <input class="mado" type="email" name="email" required="required">
+      </p>
+      <p>
+      <label for="genre">お問い合わせ種別：</label>
+      <select class="genre" name="genre" required>
+        <option value="HIPHOP/R&B">選択してください。</option>
+        <option value="REGGAE">サービスについてのお問い合わせ</option>
+        <option value="EDM">機材レンタルに関してのお問い合わせ</option>
+        <option value="ANISON">その他</option>
+      </select>
+      </p>
+      <p>
+      <label for="genre">お問い合わせ内容：</label>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      </p>
+      <p>
+        <input class="btn" type="submit" value="送信">
+      </p>
+    </form>
+</div> -->
+<div class="Form" id="form">
+  <div class="Form-Item">
+    <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>お名前</p>
+    <input type="text" class="Form-Item-Input" placeholder="例）フクオカ　タロウ">
+  </div>
+  <div class="Form-Item">
+    <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>電話番号</p>
+    <input type="text" class="Form-Item-Input" placeholder="例）000-0000-0000">
+  </div>
+  <div class="Form-Item">
+    <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
+    <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
+  </div>
+  <div class="Form-Item">
+    <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>お問い合わせ種別</p>
+    <select class="Form-Item-Input" name="genre" required>
+        <option value="HIPHOP/R&B">選択してください。</option>
+        <option value="REGGAE">サービスについてのお問い合わせ</option>
+        <option value="EDM">機材レンタルに関してのお問い合わせ</option>
+        <option value="ANISON">その他</option>
+      </select>
+  </div>
+  <div class="Form-Item">
+    <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>お問い合わせ内容</p>
+    <textarea class="Form-Item-Textarea"></textarea>
+  </div>
+  <input type="submit" class="Form-Btn" value="送信する">
+</div>
   <!---------------------------------------------------------------------------
       * SNS
   ------------------------------------------------------------------------------>
@@ -190,14 +240,14 @@
   <ul class="sns">
     <!-- LINE -->
     <li>
-      <p><strong>LINE</strong></p>
+      <p class="snsname"><strong>LINE</strong></p>
       <p>LINEでも相談受付中です！！</p>
       <div class="line-it-button" data-lang="ja" data-type="friend" data-env="REAL"   data-lineId="@835gurzh" style="display: none;"></div>
       <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
     </li>
     <!-- Twitter -->
     <li>
-      <p><strong>Twitter</strong></p>
+      <p class="snsname"><strong>Twitter</strong></p>
       <p>TwitterのDMでも相談受付中！！</p>
       <a href="https://twitter.com/fukuokapzm?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @fukuokapzm</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </li>

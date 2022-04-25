@@ -8,12 +8,16 @@ body{
     height: 30px;
     width: 100%;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
     background: #5507ff;
     color: #fff;
     text-align: center;
     padding: 20px;
+}
+
+#header.img {
+    position: relative;
 }
 
 #header.fixed {
@@ -25,7 +29,6 @@ body{
 
 nav ul {
     list-style: none;
-    text-decoration: none;
     color: #666;
     margin: 0 auto;
     padding: 10px;
@@ -35,24 +38,23 @@ nav ul {
 }
 
 nav a.top {
-    display: block;
+    display: flex;
 	font-size: 21px;
 	width: 300px;
 	height: 30px;
 	color: black;
 	background-color: #fff;
-	margin: 0 auto;
+	margin: 10px auto;
 	padding: 10px 10px;
 	text-align: center;
 	border: 1px solid #4a4a4a;
 	border-radius: 5px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.7);
-	/* margin-bottom: 48px; */
     list-style: none;
     line-height: 3;
     text-decoration: none;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
 }
 
 /* @media screen and (max-width: 768px) {

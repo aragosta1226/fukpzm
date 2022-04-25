@@ -6,6 +6,8 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:url" content="https://fukpzm.com/">
+  <meta property="og:image" content="./img/pzmlogo.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="「福岡のパーティーを絶対に盛り上げる.com」
   福岡でパーティーを行う際に弊社をご利用いただければ必ず盛り上げます。
@@ -17,6 +19,7 @@
   party,sounddesign,eventplanner,福岡イベント,福岡パーティー,音響レンタル,懇親会,幹事代行,
   beachparty,homeparty,fashionshow,fukuokacity,福岡のパーティー絶対盛り上げるドットコム">
   <link rel="stylesheet" href="./css/style_top.css">
+  <link rel="icon" type="image/png" href="./img/pzmlogo.png">
   <title>福岡のパーティー絶対盛り上げる.com</title>
 </head>
 <body>

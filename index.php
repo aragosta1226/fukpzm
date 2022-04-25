@@ -24,10 +24,10 @@
     * ヘッダー
   ------------------------------------------------------------------------------>
   <header id="header">
-    <h1>福岡のパーティー絶対盛り上げる.com</h1>
+    <img src="./img/logo.png" alt="">
     <nav>
       <ul id="g-navi">
-        <li><a href="#form">お問い合わせ</a></li>
+        <li><a class="top" href="#form">お問い合わせ</a></li>
       </ul>
     </nav>
   </header>
@@ -206,6 +206,6 @@
   </ul>
   <footer><p>Copyright 2022 福岡のパーティー絶対盛り上げる.com</p></footer>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="js/5-1-5.js"></script>
+  <script src="top.js"></script>
 </body>
 </html>

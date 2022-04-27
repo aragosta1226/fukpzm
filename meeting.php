@@ -299,7 +299,10 @@ $inquiry_com = $val['inquiry_comment'];
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <link href='fullcalendar/lib/main.css' rel='stylesheet' />
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style_m.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
     <title>打ち合わせ管理</title>
 
 </head>
@@ -339,24 +342,28 @@ $inquiry_com = $val['inquiry_comment'];
                     </div>
                     <!-- 会場、DJ -->
                     <div class="place_dj">
-                        <div class="place">
-                            <div class="cp_ipselect cp_sl02">
-                                <select class="plan_select" name="place_sel">
-                                    <?= $place_output ?>
-                                </select>
+                        <div class="place_main">
+                            <div class="place">
+                                <div class="cp_ipselect cp_sl02">
+                                    <select class="plan_select" name="place_sel">
+                                        <?= $place_output ?>
+                                    </select>
+                                </div>
+                                <a href="">https://www.xxxx.com</a>
                             </div>
-                            <a href="">https://www.xxxx.com</a>
+                            <div id="map"></div>
                         </div>
-                        <div id="map"></div>
-                        <div class="dj">
-                            <div class="cp_ipselect cp_sl02">
-                                <select class="plan_select" name="dj_sel">
-                                    <?= $dj_output ?>
-                                </select>
+                        <div class="dj_main">
+                            <div class="dj">
+                                <div class="cp_ipselect cp_sl02">
+                                    <select class="plan_select" name="dj_sel">
+                                        <?= $dj_output ?>
+                                    </select>
+                                </div>
+                                <button class="detail_btn">詳細</button>
                             </div>
-                            <button class="detail_btn">詳細</button>
+                            <div id="dj_detail">得意分野：all</div>
                         </div>
-                        <div id="dj_detail">得意分野：all</div>
                     </div>
                 </div>
             </div>
@@ -392,7 +399,7 @@ $inquiry_com = $val['inquiry_comment'];
                         <button class="detail_btn">詳細</button>
                         <button class="delete_btn">削除</button>
                     </div>
-                    <textarea name="option1_txt" id="sup_coment" cols="30" rows="4"><?= $opt1_txt ?></textarea>
+                    <textarea name="option1_txt" class="sup_coment" cols="30" rows="4"><?= $opt1_txt ?></textarea>
 
                 </div>
             </div>

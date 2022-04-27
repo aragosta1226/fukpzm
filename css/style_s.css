@@ -15,15 +15,67 @@
 	box-sizing: border-box;
 }
 
+body {
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'Kosugi Maru', sans-serif;
+	width: 1220px;
+	background-color: #f5f5f5;
+}
+
 /*ーーーーーーーーーーー*/
 /*この下から記述*/
 /*ーーーーーーーーーーー*/
+.ga_main {
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .daimoku {
 	display: flex;
+	margin-left: 20px;
+}
+
+.dai_name {
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+#user_name {
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+#party_name {
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.back_btn {
+	font-size: 16px;
+	font-weight: 600;
+	color: #1f3134;
+	width: 75px;
+	height: 50px;
+	border-radius: 3px;
+	border: 4px solid;
+	border-color: #9fa0a0;
+	background-color: #fff;
+	margin: 0 0 0 auto;
+	padding: 0;
 }
 
 #chart_div {
 	width: 1200px;
+	margin-left: 20px;
+	border: 2px solid #696969;
 }
 
 .cp_ipselect {
@@ -59,6 +111,8 @@
 	border: 1px solid black;
 	border-radius: 2px;
 	background: #ffffff;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
 
 .cp_ipselect.cp_sl02::before {

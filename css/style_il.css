@@ -12,6 +12,10 @@
 /*ーーーーーーーーーーー*/
 /*この下から記述*/
 /*ーーーーーーーーーーー*/
+body {
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
 .dark {
   background-color: #ffffff;
   padding-top: 20px;

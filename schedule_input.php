@@ -10,6 +10,31 @@ $user_id = $_POST["user_id"];
 //ユーザー単位の履歴番号
 $party_no = $_POST["party_no"];
 
+//ユーザー情報取得
+$sql = "SELECT * FROM (SELECT * FROM inquiry WHERE user_id = $user_id AND id = $party_no AND del_f = '0') AS inquiry LEFT JOIN (
+        SELECT meeting.user_id AS userid,meeting.party_no,meeting.party_type,meeting.party_ymd,meeting.status,party_master.str as party_str 
+        FROM meeting, party_master 
+        WHERE meeting.party_type = party_master.m_id AND meeting.del_f = '0' AND party_master.del_f = '0'
+        ) AS meet
+        ON inquiry.user_id = meet.userid AND inquiry.id = meet.party_no";
+
+$stmt = $pdo->prepare($sql);
+
+try {
+  $status = $stmt->execute();
+} catch (PDOException $e) {
+  echo json_encode(["sql error" => "{$e->getMessage()}"]);
+  exit();
+}
+
+$main = $stmt->fetch(PDO::FETCH_ASSOC);
+
+//名前
+$name = $main['kana_sei'] . "　" . $main['kana_mei'] . "様";
+
+//パーティー種別（1:二次会、2:学生パーティー、3:ホームパーティー）
+$party_str = $main['party_str'];
+
 //スケジュールデータ取得
 $sql = "SELECT * FROM schedule WHERE user_id = $user_id AND party_no = $party_no AND del_f = '0' ORDER BY start_ymd";
 
@@ -54,29 +79,34 @@ foreach ($result as $record) {
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <link rel="stylesheet" href="./css/style_si.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
   <title>スケジュール設定</title>
 </head>
 
 <body>
+  <div class="ga_main">スケジュール入力</div>
   <form action="sdata_create.php" method="POST" name="set">
     <div class="daimoku">
       <div class="dai_name">お客様：</div>
-      <div id="user_name"></div>
+      <div id="user_name"><?= $name ?></div>
       <input type="hidden" name="user_id" value=<?= $user_id ?>>
       <input type="hidden" name="party_no" value=<?= $party_no ?>>
-      <div class="cp_ipselect cp_sl02">
-        <select class="plan_select" name="type_sel">
-          <option value="1">お客様用</option>
-          <option value="2">発注先用</option>
-          <option value="3">運営用</option>
-        </select>
-      </div>
-      <button type="submit">更新</button>
+      <button type="submit" class="update_btn">更新</button>
+      <button onclick="history.back()" class="back_btn">戻る</button>
     </div>
     <div class="daimoku">
       <div class="dai_name">パーティー種別：</div>
-      <div id="party_name"></div>
+      <div id="party_name"><?= $party_str ?></div>
       <input id="party_type" type="hidden" name="party_type" value=1>
+    </div>
+    <div class="cp_ipselect cp_sl02">
+      <select class="plan_select" name="type_sel">
+        <option value="1">お客様用</option>
+        <option value="2">発注先用</option>
+        <option value="3">運営用</option>
+      </select>
     </div>
     <table>
       <tr>
@@ -116,6 +146,7 @@ foreach ($result as $record) {
         <td><input class="progress" type="text" name="progress5" value=<?= $progress5 ?>><label>％</label></td>
       </tr>
     </table>
+    <div class="bottom"></div>
   </form>
 </body>
 

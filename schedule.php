@@ -84,22 +84,32 @@ $json_output = json_encode($output);
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <link rel="stylesheet" href="./css/style_s.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
   <title>スケジュール管理</title>
 </head>
 
 <body>
+  <div class="ga_main">スケジュール</div>
   <div class="daimoku">
     <div class="dai_name">お客様：</div>
     <div id="user_name"><?= $name ?></div>
-    <div class="cp_ipselect cp_sl02">
-      <select class="plan_select" name="dj_sel">
-        <option value="1">お客様用</option>
-        <option value="2">発注先用</option>
-        <option value="3">運営用</option>
-      </select>
-    </div>
+    <button onclick="history.back()" class="back_btn">戻る</button>
   </div>
-  <div id="chart_div" style="height: 180px;"></div>
+  <div class="daimoku">
+    <div class="dai_name">パーティー種別：</div>
+    <div id="party_name"><?= $party_str ?></div>
+    <input id="party_type" type="hidden" name="party_type" value=1>
+  </div>
+  <div class="cp_ipselect cp_sl02">
+    <select class="plan_select" name="dj_sel">
+      <option value="1">お客様用</option>
+      <option value="2">発注先用</option>
+      <option value="3">運営用</option>
+    </select>
+  </div>
+  <div id="chart_div"></div>
 
   <script>
     google.charts.load('current', {

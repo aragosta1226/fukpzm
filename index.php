@@ -34,7 +34,7 @@
     </nav>
     <nav>
       <ul id="g-navi">
-        <li><a class="top" href="">管理者ログイン</a></li>
+        <li><a class="top" href="login.php">管理者ログイン</a></li>
       </ul>
     </nav>
   </header>
@@ -259,7 +259,7 @@
       <a href="https://twitter.com/fukuokapzm?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @fukuokapzm</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </li>
   </ul>
-  <a class="top" href="">管理者ログイン</a><br>
+  <a class="top" href="login.php">管理者ログイン</a><br>
   <footer><p>Copyright 2022 福岡のパーティー絶対盛り上げる.com</p></footer>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="top.js"></script>

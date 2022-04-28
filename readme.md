@@ -22,7 +22,8 @@ DoKoDeMo DJ
   <br>
   <h2>②ログイン画面に遷移するので、<br>
   ID[aragosta]/Password[tonkotsu]を入力してログインする。</h2><br>
-  ![スクリーンショット 2022-04-28 20 45 26](https://user-images.githubusercontent.com/96280160/165746787-9f5f5e9a-3fc0-43cd-98f7-de923001e5b0.png)<br>
+  ![スクリーンショット 2022-04-28 20 45 26](https://user-images.githubusercontent.com/96280160/165747173-b2a9af59-4389-4cdc-833b-bdd07ad57cc3.png)
+<br>
   <br>
   <h2>③お問い合わせ一覧が表示されるので、確認したい番号の横にチェックを入れて右上の「打ち合わせ」ボタンを押す。</h2>
 

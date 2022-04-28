@@ -1,6 +1,6 @@
 body {
     font-family: 'Kosugi Maru', sans-serif;
-    background-color: #f5f5f5;
+    background-color: #f0f8ff;
 }
 
 form {
@@ -20,7 +20,7 @@ form {
 
 form h1,
 form p {
-    color: white;
+    color: #f0f8ff;
     font-weight: 500;
 }
 
@@ -39,14 +39,13 @@ form input[type="password"] {
     background: none;
     display: block;
     margin: 0 auto;
-    border: 2px solid #fff;
+    border: 2px solid #f0f8ff;
     padding: 15px 10px;
     width: 200px;
     outline: none;
     border-radius: 24px;
     transition: 0.25s;
     text-align: center;
-    /* color: #fff; */
 }
 
 form input[type="id"]:focus,
@@ -72,8 +71,8 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-    background-color: #fff;
-    border: 2px solid #fff;
+    background-color: #f0f8ff;
+    border: 2px solid #f0f8ff;
 }
 
 .center {
@@ -82,8 +81,8 @@ form input[type="submit"]:hover {
     margin: 20px auto;
     width: 200px;
     text-align: center;
-    background-color: #2FD3D9;
-    color: #fff;
+    background-color: #000;
+    color: white;
 }
 
 #c_color {
@@ -99,4 +98,11 @@ form input[type="submit"]:hover {
     font-size: 16px;
     margin-left: 5px;
     margin-bottom: 10px;
+}
+
+#r_color {
+    color: #b7282e;
+    border: none;
+    background: transparent;
+    font-size: 16px;
 }

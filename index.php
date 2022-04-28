@@ -1,8 +1,6 @@
-<?php
-?>
-
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,10 +15,14 @@
   レセプションパーティー,ホームパーティー,クローズパーティー,キャンプパーティー,partyplanner,
   party,sounddesign,eventplanner,福岡イベント,福岡パーティー,音響レンタル,懇親会,幹事代行,
   beachparty,homeparty,fashionshow,fukuokacity,福岡のパーティー絶対盛り上げるドットコム">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+
   <link rel="stylesheet" href="./css/style_top.css">
   <link rel="icon" type="image/png" href="./img/pzmlogo.png">
   <title>福岡のパーティー絶対盛り上げる.com</title>
 </head>
+
 <body>
   <!---------------------------------------------------------------------------
     * ヘッダー
@@ -34,7 +36,7 @@
     </nav>
     <nav>
       <ul id="g-navi">
-        <li><a class="top" href="login.php">管理者ログイン</a></li>
+        <li><a class="top" href="./login.php">管理者ログイン</a></li>
       </ul>
     </nav>
   </header>
@@ -50,37 +52,37 @@
   <h2><strong>簡単にDJを呼べます</strong></h2>
   <ul class="contents">
     <li>
-    <div class="item">
-      <img src="./img/dj.png" width="393" height="393" alt="DJ">
-      <p class="item_title"><strong>どんなパーティーに<br>DJを呼べるの？</strong></p>
-      <p class="item_text">スペースさえあればどこでもDJがあなたのパーティーに出張いたしま<br>
-      す。現役のDJがパーティーの規模にあったプランをご提案します。<br>
-      どんなパーティーにDJを呼べるのかな？等、お気軽にご相談<br>
-      ください。ホームパーティーももちろん可！</p>
-    </div>
+      <div class="item">
+        <img src="./img/dj.png" width="393" height="393" alt="DJ">
+        <p class="item_title"><strong>どんなパーティーに<br>DJを呼べるの？</strong></p>
+        <p class="item_text">スペースさえあればどこでもDJがあなたのパーティーに出張いたしま<br>
+          す。現役のDJがパーティーの規模にあったプランをご提案します。<br>
+          どんなパーティーにDJを呼べるのかな？等、お気軽にご相談<br>
+          ください。ホームパーティーももちろん可！</p>
+      </div>
     </li>
     <li>
-    <div class="item">
-      <img src="./img/suguyoyaku.png" width="393" height="393" alt="予約">
-      <p class="item_title"><strong>スグに<br>予約OK</strong></p>
-      <p class="item_text">急にパーティーすることになった、来週DJ頼んでみようかな？<br>
-        そういう時でもDJのスケジュールが空いていれば、<br>
-        いつでも対応可能です。まずはご相談ください。</p>
-    </div>
+      <div class="item">
+        <img src="./img/suguyoyaku.png" width="393" height="393" alt="予約">
+        <p class="item_title"><strong>スグに<br>予約OK</strong></p>
+        <p class="item_text">急にパーティーすることになった、来週DJ頼んでみようかな？<br>
+          そういう時でもDJのスケジュールが空いていれば、<br>
+          いつでも対応可能です。まずはご相談ください。</p>
+      </div>
     </li>
     <li>
-    <div class="item">
-      <img src="./img/itsudemo.png" width="393" height="393" alt="確認">
-      <p class="item_title"><strong>準備の状況確認が<br>いつでも出来る！</strong></p>
-      <p class="item_text">これまでいちいち電話やメールで把握しないといけなかった<br>
-      準備の状況がいつでも簡単に確認できます。準備の確認<br>
-      が出来る事で今まで面倒だった幹事の手間を減らします。</p>
-    </div>
+      <div class="item">
+        <img src="./img/itsudemo.png" width="393" height="393" alt="確認">
+        <p class="item_title"><strong>準備の状況確認が<br>いつでも出来る！</strong></p>
+        <p class="item_text">これまでいちいち電話やメールで把握しないといけなかった<br>
+          準備の状況がいつでも簡単に確認できます。準備の確認<br>
+          が出来る事で今まで面倒だった幹事の手間を減らします。</p>
+      </div>
     </li>
   </ul>
-    <div>
+  <div>
     <a href="#form">お問い合わせはこちら</a>
-    </div>
+  </div>
   <h2 class="midashi"><strong>サービスについて</strong></h2>
   <h2><strong>お客様のパーティーのニーズにあったDJを手配します。</strong></h2>
   <div class="flex-item">
@@ -88,9 +90,9 @@
     <div class="flex-item_txt">
       <p><strong>現役の実績のあるプロのDJが対応します！</strong></p>
       <p>どんなシーンでも対応力のあるDJをご用意いたします。在籍しているDJは、さまざ<br>
-      まなシーンでプレイをしてきた実績のある現役のプロのDJです。もちろん事前に当<br>
-      日流して欲しい曲をリクエストすることも可能です。どんなパーティーにしたいの<br>
-      か、お客様のイメージをきちんとヒアリングいたしますのでご安心ください。</p>
+        まなシーンでプレイをしてきた実績のある現役のプロのDJです。もちろん事前に当<br>
+        日流して欲しい曲をリクエストすることも可能です。どんなパーティーにしたいの<br>
+        か、お客様のイメージをきちんとヒアリングいたしますのでご安心ください。</p>
     </div>
   </div>
   <h2 class="midashi"><strong>当社が選ばれる理由</strong></h2>
@@ -162,7 +164,7 @@
         <h3 class="title">イベントの知識が全くないのですが、大丈夫ですか？</h3>
         <div class="box">
           <p>イベント開催について丁寧にご説明いたしますので、ご安心ください。<br>
-        オプションで会場準備からお手伝いすることも可能です。不安なことは一緒に解決して行きましょう！！</p>
+            オプションで会場準備からお手伝いすることも可能です。不安なことは一緒に解決して行きましょう！！</p>
         </div>
       </section>
     </li>
@@ -171,7 +173,7 @@
         <h3 class="title">電源がないところで開催したいのですが、可能ですか？</h3>
         <div class="box">
           <p>もちろん可能です！金額については、まずはお見積もりからさせて頂きますのでご納得頂いた上で<br>
-        準備に入ります。弊社は野外イベントのノウハウなどもございますのでご安心ください。</p>
+            準備に入ります。弊社は野外イベントのノウハウなどもございますのでご安心ください。</p>
         </div>
       </section>
     </li>
@@ -181,7 +183,7 @@
   ------------------------------------------------------------------------------>
   <!-- <div id="form"> -->
   <h2><strong>まずはお気軽にお問い合わせください！</strong></h2>
-   <!-- <form action="" method="POST">
+  <!-- <form action="" method="POST">
       <p>
         <label for="">セイ：</label>
         <input class="mado" type="text" name="name" required="required">
@@ -212,34 +214,40 @@
       </p>
     </form>
 </div> -->
-<div class="Form" id="form">
-  <div class="Form-Item">
-    <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>お名前</p>
-    <input type="text" class="Form-Item-Input" placeholder="例）フクオカ　タロウ">
-  </div>
-  <div class="Form-Item">
-    <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>電話番号</p>
-    <input type="text" class="Form-Item-Input" placeholder="例）000-0000-0000">
-  </div>
-  <div class="Form-Item">
-    <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
-    <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
-  </div>
-  <div class="Form-Item">
-    <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>お問い合わせ種別</p>
-    <select class="Form-Item-Input" name="genre" required>
-        <option value="HIPHOP/R&B">選択してください。</option>
-        <option value="REGGAE">サービスについてのお問い合わせ</option>
-        <option value="EDM">機材レンタルに関してのお問い合わせ</option>
-        <option value="ANISON">その他</option>
-      </select>
-  </div>
-  <div class="Form-Item">
-    <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>お問い合わせ内容</p>
-    <textarea class="Form-Item-Textarea"></textarea>
-  </div>
-  <input type="submit" class="Form-Btn" value="送信する">
-</div>
+  <form action="idata_create.php" method="POST" name="set">
+    <div class="Form" id="form">
+      <div class="Form-Item">
+        <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>姓（カナ）</p>
+        <input type="text" class="Form-Item-Input" name="sei" placeholder="例）フクオカ">
+      </div>
+      <div class="Form-Item">
+        <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>名（カナ）</p>
+        <input type="text" class="Form-Item-Input" name="mei" placeholder="例）タロウ">
+      </div>
+      <div class="Form-Item">
+        <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>電話番号</p>
+        <input type="text" class="Form-Item-Input" name="tel_no" placeholder="例）000-0000-0000">
+      </div>
+      <div class="Form-Item">
+        <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
+        <input type="email" class="Form-Item-Input" name="mail" placeholder="例）example@gmail.com">
+      </div>
+      <div class="Form-Item">
+        <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>お問い合わせ種別</p>
+        <select class="Form-Item-Input" name="genre" required>
+          <option value="">選択してください。</option>
+          <option value=1>サービスについてのお問い合わせ</option>
+          <option value=2>機材レンタルに関してのお問い合わせ</option>
+          <option value=3>その他</option>
+        </select>
+      </div>
+      <div class="Form-Item">
+        <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>お問い合わせ内容</p>
+        <textarea class="Form-Item-Textarea" name="inquiry_com"></textarea>
+      </div>
+      <input type="submit" class="Form-Btn" id="btn_send" value="送信する">
+    </div>
+  </form>
   <!---------------------------------------------------------------------------
       * SNS
   ------------------------------------------------------------------------------>
@@ -249,19 +257,23 @@
     <li>
       <p class="snsname"><strong>LINE</strong></p>
       <p>LINEでも相談受付中です！！</p>
-      <div class="line-it-button" data-lang="ja" data-type="friend" data-env="REAL"   data-lineId="@835gurzh" style="display: none;"></div>
+      <div class="line-it-button" data-lang="ja" data-type="friend" data-env="REAL" data-lineId="@835gurzh" style="display: none;"></div>
       <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
     </li>
     <!-- Twitter -->
     <li>
       <p class="snsname"><strong>Twitter</strong></p>
       <p>TwitterのDMでも相談受付中！！</p>
-      <a href="https://twitter.com/fukuokapzm?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @fukuokapzm</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <a href="https://twitter.com/fukuokapzm?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @fukuokapzm</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </li>
   </ul>
-  <a class="top" href="login.php">管理者ログイン</a><br>
-  <footer><p>Copyright 2022 福岡のパーティー絶対盛り上げる.com</p></footer>
+  <a class="top" href="./login.php">管理者ログイン</a><br>
+  <footer>
+    <p>Copyright 2022 福岡のパーティー絶対盛り上げる.com</p>
+  </footer>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="top.js"></script>
 </body>
+
 </html>

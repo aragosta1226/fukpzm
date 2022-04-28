@@ -10,7 +10,7 @@ form {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #000;
+    background-color: #2FD3D9;
     text-align: center;
 }
 
@@ -39,7 +39,7 @@ form input[type="password"] {
     background: none;
     display: block;
     margin: 0 auto;
-    border: 2px solid blue;
+    border: 2px solid #fff;
     padding: 15px 10px;
     width: 200px;
     outline: none;
@@ -71,8 +71,8 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-    background-color: blue;
-    border: 2px solid blue;
+    background-color: #fff;
+    border: 2px solid #fff;
 }
 
 .center {
@@ -81,7 +81,7 @@ form input[type="submit"]:hover {
     margin: 20px auto;
     width: 200px;
     text-align: center;
-    background-color: #000;
+    background-color: #2FD3D9;
     color: white;
 }
 

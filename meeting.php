@@ -297,6 +297,7 @@ $inquiry_com = $val['inquiry_comment'];
     <script src="fullcalendar/lib/locales/ja.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="icon" type="image/png" href="./img/pzmlogo.png">
     <link href='fullcalendar/lib/main.css' rel='stylesheet' />
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
     <link rel="stylesheet" href="./css/style_m.css">

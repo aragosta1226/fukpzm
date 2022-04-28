@@ -24,7 +24,7 @@ $('.title').on('click', function() {//タイトル要素をクリックしたら
 	$('.box').slideUp(500);//クラス名.boxがついたすべてのアコーディオンを閉じる
 
 	let findElm = $(this).next(".box");//タイトル直後のアコーディオンを行うエリアを取得
-
+    console.log("うんこ");
 	if($(this).hasClass('close')){//タイトル要素にクラス名closeがあれば
 		$(this).removeClass('close');//クラス名を除去
 	}else{//それ以外は

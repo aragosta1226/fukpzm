@@ -17,11 +17,13 @@ DoKoDeMo DJ
    <h2>③お問い合わせ内容を記載の上、「送信する」ボタンをクリックするとinquiryテーブルにお問い合わせデータが登録される。</h2>
 ​   <h1>運営側</h1>
   <h2>①TOPページ https://fukpzm.com/ の右上にある「管理者ログイン」ボタンを押す。</h2><br>
-  <img width="auto" height="auto" alt="スクリーンショット 2022-04-28 20 39 33" src="https://user-images.githubusercontent.com/96280160/165744652-124f2767-668c-4605-b91b-c381f3d08d6c.png"><br>
+  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165744652-124f2767-668c-4605-b91b-c381f3d08d6c.png"><br>
   <br>
   <h2>②ログイン画面に遷移するので、IDとパスワードを入力しログインする。</h2><br>
   <img width="auto" height="auto"src="https://user-images.githubusercontent.com/96280160/165899372-bdb6271e-0c77-4d38-a032-09e3f07f478e.png"><br>
 ​  ID：aragosta<br>Password：tonkotsu<br>
+
+  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165904146-8bf29d45-eed4-4983-8cda-170746c6b118.png">
   ※ユーザーを登録する場合は、画面下の青字CREATE ACCOUNTをクリックすると<br>
   ボタン名称が変わるのでUserIDとPasswordを入力後ボタンを押すとユーザーが登録されます。<br>
   ※TOPページに戻りたい場合は、画面下の赤字BACKで戻ります。<br>

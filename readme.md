@@ -56,7 +56,7 @@ DoKoDeMo DJ
 
   <h2>５：準備のスケジュール状況の登録と更新</h2>
   問い合わせ一覧画面に戻り、問い合わせ内容を１つ選び「スケジュール入力」ボタンを押します。
-  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165936099-6f947f1a-c067-4179-8c38-dd10cf40b6eb.png">
+  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165936963-3cf88f93-43b8-49b0-b771-eea82f5e56d5.png">
   スケジュール入力画面に遷移するので、「工程名」・「開始日付」・「予定日数」・「進捗率」を入力して、「更新」ボタンを押すとスケジュール
   　が保存されます。※画面上にあるセレクトボックスはまだ機能しません。
   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165936579-0e4e6b3b-895a-4340-b34c-208f3e3689fa.png">

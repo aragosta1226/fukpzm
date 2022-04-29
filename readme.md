@@ -33,13 +33,13 @@ DoKoDeMo DJ
   <h2>３：問い合わせ一覧画面</h2>
   問い合わせ一覧が表示されるので、確認したい番号の横に「チェック」を入れて右上の「打ち合わせ」ボタンを押す。<br>
   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165909840-a3783098-1c19-43a7-90b3-5f03e97b4bb5.png">
-  複数の問い合わせにチェックを入れるとポップアップが表示されます。<br>
+  ※複数の問い合わせにチェックを入れるとポップアップが表示されます。<br>
   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165910226-6742418e-c4fd-4c87-996a-f5c2769f0933.png">
 ​  <br>
   <h2>４：打ち合わせ画面</h2>
   打ち合わせ画面が表示される。
-  （打ち合わせ画面にはお問い合わせで入力された内容が反映されている。）
-  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165909840-a3783098-1c19-43a7-90b3-5f03e97b4bb5.png">
+  打ち合わせ画面(赤で囲ってある部分)にはお問い合わせで入力された内容が反映されている。
+  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165911105-1fa0c0e1-677f-4082-a751-7f4c5611bd19.png">
   ・セレクトボックスのパーティー種別、会場、DJ、オプションを選択したり、画面左下のカレンダーから日付を選んだり、料金を入力します。
   ・画面右上の「予約」ボタンをクリックすると選択したり入力したりした内容が保存されてステータスが予約状態になります。
   ・画面右上の「保存」ボタンはステータスが保存状態になるだけで「予約」ボタンと変わらないです。

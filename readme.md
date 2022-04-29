@@ -23,7 +23,7 @@ DoKoDeMo DJ
   <br>
   <h2>②ログイン画面に遷移するので、<br>
   ID[aragosta]/Password[tonkotsu]を入力してログインする。</h2><br>
-  ![リピートグリッド 6](https://user-images.githubusercontent.com/96280160/165747350-b4ec059b-2b65-4598-8a8b-236c8dded3db.png)<br>
+  ![ログイン画面](https://user-images.githubusercontent.com/96280160/165898500-69be50f0-4815-4e73-b07e-50a23ad0be9c.png)<br>
 ​
  ・ ユーザーを登録する場合は、画面下の青字CREATE ACCOUNTをクリックするとボタン名称が変わるのでUserIDとPasswordを入力後ボタンを
   押すとユーザーが登録されます。

@@ -47,7 +47,7 @@ DoKoDeMo DJ
   ・画面右上の「予約」ボタンをクリックすると選択したり入力したりした内容が保存されてステータスが予約状態になります。<br>
   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165916074-013aba06-9bf7-4652-ab15-69d5a3c54b5b.png">
   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165917347-81be3c7b-ead7-45c8-b0fc-ec4f653a4f39.png">
-  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165917626-8e0f5081-b298-4bee-8ec0-cd0aca944fa4.pngg">
+  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165917626-8e0f5081-b298-4bee-8ec0-cd0aca944fa4.png">
   ・画面右上の「保存」ボタンはステータスが保存状態になるだけで「予約」ボタンと変わらないです。
   　（予約か保存をした場合は、問い合わせ一覧にその内容が反映されます。<br>
   ・画面右上の「クリア」ボタンは入力した内容がすべてリセットされます。<br>

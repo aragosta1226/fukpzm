@@ -32,6 +32,7 @@ DoKoDeMo DJ
   <br>
   <h2>３：問い合わせ一覧画面</h2>
   問い合わせ一覧が表示されるので、確認したい番号の横に「チェック」を入れて右上の「打ち合わせ」ボタンを押す。複数の問い合わせにチェックを入れるとポップアップが表示されます。
+  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165906762-a0c3cdbf-095a-49c2-ab06-d7ffcbd01b8b.png">
 ​  <br>
   <h2>４：打ち合わせ画面<br>
   打ち合わせ画面が表示される。

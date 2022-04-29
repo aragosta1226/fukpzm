@@ -22,7 +22,7 @@ DoKoDeMo DJ
 
    <h2>２：DBにお問い合わせ内容が登録される</h2>
    お問い合わせ内容を記載の上、「送信する」ボタンをクリックするとinquiryテーブルにお問い合わせデータが登録される。
-   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165744652-124f2767-668c-4605-b91b-c381f3d08d6c.png">
+   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165940594-17467a2e-9421-49cb-ab94-b65c172af45c.png">
 
 ​  <h1>運営側</h1>
   <h2>１：TOP画面</h2>

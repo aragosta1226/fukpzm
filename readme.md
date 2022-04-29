@@ -20,7 +20,8 @@ DoKoDeMo DJ
    ちゃんと送信されると、メッセージが表示されます。
    <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165939994-672b71e0-1276-43ab-8131-79316e7d8b7c.png">
 
-   <h2>２：お問い合わせ内容を記載の上、「送信する」ボタンをクリックするとinquiryテーブルにお問い合わせデータが登録される。</h2>
+   <h2>２：DBにお問い合わせ内容が登録される</h2>
+   お問い合わせ内容を記載の上、「送信する」ボタンをクリックするとinquiryテーブルにお問い合わせデータが登録される。
    <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165744652-124f2767-668c-4605-b91b-c381f3d08d6c.png">
 
 ​  <h1>運営側</h1>

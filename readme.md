@@ -12,14 +12,16 @@ DoKoDeMo DJ
 ​
 ## 操作方法
    <h1>ユーザー側</h1>
-   <h2>①TOPページ：https://fukpzm.com/</h2>
-   TOPページの一番下に問い合わせフォームがあります。そちらからお問い合わせ内容が送信できる様になっています。
+   <h2>１：TOPページ：https://fukpzm.com/</h2>
+   TOPページの一番下に問い合わせフォームがあります。
    <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165939063-74464f65-7a95-432c-9a8e-3c9f7744e872.png">
+   フォームからお問い合わせ内容が送信できる様になっています。
    <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165939230-684070ae-521c-406f-9981-90f47fd35a84.png">
+   ちゃんと送信されると、メッセージが表示されます。
+   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165939994-672b71e0-1276-43ab-8131-79316e7d8b7c.png">
 
-   <h2>②打合せの内容と準備の状況が確認できる</h2>
+   <h2>２：お問い合わせ内容を記載の上、「送信する」ボタンをクリックするとinquiryテーブルにお問い合わせデータが登録される。</h2>
    <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165744652-124f2767-668c-4605-b91b-c381f3d08d6c.png">
-   <h2>③お問い合わせ内容を記載の上、「送信する」ボタンをクリックするとinquiryテーブルにお問い合わせデータが登録される。</h2>
 
 ​  <h1>運営側</h1>
   <h2>１：TOP画面</h2>

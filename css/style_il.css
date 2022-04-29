@@ -14,6 +14,19 @@
 /*ーーーーーーーーーーー*/
 body {
   font-family: 'Kosugi Maru', sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1220px;
+}
+
+.daimoku {
+  display: flex;
+}
+
+.btn_group {
+  display: flex;
+  margin: 0 0 0 auto;
+  padding: 0;
 }
 
 .dark {
@@ -54,7 +67,6 @@ table tr.retu:nth-child(odd) {
 .w_col {
   font-size: 20px;
   color: #1f3134;
-  margin-right: 785px;
 }
 
 .formbtn {
@@ -66,6 +78,21 @@ table tr.retu:nth-child(odd) {
   border-radius: 3px;
   border: 4px solid;
   border-color: #9fa0a0;
+  background-color: #fff;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 0;
+}
+
+.formbtn2 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1f3134;
+  width: 75px;
+  height: 50px;
+  border-radius: 3px;
+  border: 4px solid;
+  border-color: #8b0000;
   background-color: #fff;
   margin-bottom: 10px;
   margin-right: 10px;

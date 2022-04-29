@@ -88,7 +88,6 @@ foreach ($result as $record) {
     <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.0.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
-    <link rel="icon" type="image/png" href="./img/pzmlogo.png">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style_il.css">
@@ -100,29 +99,32 @@ foreach ($result as $record) {
 <body>
     <div class="container-fluid">
         <div class="dark">
-            <div class="row offset-1">
+            <div class="daimoku">
                 <p class="w_col">問い合わせ一覧</p>
-                <form action="meeting.php" method="POST" name="meeting">
-                    <input type="hidden" class="party_no" name="party_no" value="">
-                    <input type="hidden" class="user_id" name="user_id" value="">
-                    <button type="submit" class="btn formbtn" id="btn_meeting">打ち合わせ</button>
-                </form>
-                <form action="schedule_input.php" method="POST" name="sc_input">
-                    <input type="hidden" class="party_no" name="party_no" value="">
-                    <input type="hidden" class="user_id" name="user_id" value="">
-                    <button type="submit" class="btn formbtn" id="btn_input">スケジュール入力</button>
-                </form>
-                <form action="schedule.php" method="POST" name="schedule">
-                    <input type="hidden" class="party_no" name="party_no" value="">
-                    <input type="hidden" class="user_id" name="user_id" value="">
-                    <button type="submit" class="btn formbtn" id="btn_open">スケジュール表示</button>
-                </form>
-                <form action="idata_delete.php" method="POST" name="delete">
-                    <input type="hidden" class="party_no" name="party_no" value="">
-                    <button type="submit" class="btn formbtn" id="btn_del">削除</button>
-                </form>
+                <div class="btn_group">
+                    <form action="meeting.php" method="POST" name="meeting">
+                        <input type="hidden" class="party_no" name="party_no" value="">
+                        <input type="hidden" class="user_id" name="user_id" value="">
+                        <button type="submit" class="btn formbtn" id="btn_meeting">打ち合わせ</button>
+                    </form>
+                    <form action="schedule_input.php" method="POST" name="sc_input">
+                        <input type="hidden" class="party_no" name="party_no" value="">
+                        <input type="hidden" class="user_id" name="user_id" value="">
+                        <button type="submit" class="btn formbtn" id="btn_input">スケジュール入力</button>
+                    </form>
+                    <form action="schedule.php" method="POST" name="schedule">
+                        <input type="hidden" class="party_no" name="party_no" value="">
+                        <input type="hidden" class="user_id" name="user_id" value="">
+                        <button type="submit" class="btn formbtn" id="btn_open">スケジュール表示</button>
+                    </form>
+                    <form action="idata_delete.php" method="POST" name="delete">
+                        <input type="hidden" class="party_no" name="party_no" value="">
+                        <button type="submit" class="btn formbtn" id="btn_del">削除</button>
+                    </form>
+                    <button type="button" onclick="location.href='./login.php'" class="btn formbtn2" id="btn_out">LOGOUT</button>
+                </div>
             </div>
-            <table class="col-10 offset-1 table table-bordered">
+            <table class="col-12 table table-bordered">
                 <thead class="header">
                     <tr>
                         <th scope="col">#</th>
@@ -161,7 +163,10 @@ foreach ($result as $record) {
                     $("#message").text("複数選択されています。１つだけ選択してください。");
                     $(".modal-container").toggleClass("active");
                     return false;
-
+                } else if ($('[class="form-check-input position-static"]:checked').length === 0) {
+                    $("#message").text("選択がされていません。１つ選択してください。");
+                    $(".modal-container").toggleClass("active");
+                    return false;
                 } else if ($('[class="form-check-input position-static"]:checked').length === 1) {
                     //1件のみなのでダイレクトにセット
                     const ind = $('[class="form-check-input position-static"]:checked').val().indexOf("_");
@@ -179,6 +184,11 @@ foreach ($result as $record) {
                     $(".modal-container").toggleClass("active");
                     return false;
 
+                } else if ($('[class="form-check-input position-static"]:checked').length === 0) {
+                    $("#message").text("選択がされていません。１つ選択してください。");
+                    $(".modal-container").toggleClass("active");
+                    return false;
+
                 } else if ($('[class="form-check-input position-static"]:checked').length === 1) {
                     //1件のみなのでダイレクトにセット
                     const ind = $('[class="form-check-input position-static"]:checked').val().indexOf("_");
@@ -193,6 +203,11 @@ foreach ($result as $record) {
             $("#btn_open").on("click", function() {
                 if ($('[class="form-check-input position-static"]:checked').length > 1) {
                     $("#message").text("複数選択されています。１つだけ選択してください。");
+                    $(".modal-container").toggleClass("active");
+                    return false;
+
+                } else if ($('[class="form-check-input position-static"]:checked').length === 0) {
+                    $("#message").text("選択がされていません。１つ選択してください。");
                     $(".modal-container").toggleClass("active");
                     return false;
 
@@ -220,6 +235,11 @@ foreach ($result as $record) {
             });
 
             $("#btn_del").on("click", function() {
+                if ($('[class="form-check-input position-static"]:checked').length === 0) {
+                    $("#message").text("選択がされていません。１つ選択してください。");
+                    $(".modal-container").toggleClass("active");
+                    return false;
+                }
                 let arr = [];
                 $('[class="form-check-input position-static"]:checked').each(function() {
                     //idだけを抽出

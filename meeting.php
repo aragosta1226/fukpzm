@@ -126,12 +126,19 @@ if ($s_count != 0) {
     $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     $dj_output = "<option value=''>--DJ--</option>";
+    $dj_detail = "";
+    $djArray = array();
 
     foreach ($result as $record) {
         if ($record["m_id"] !== 0) {
+
+            //詳細情報を配列にセット
+            array_push($djArray, $record["detail"]);
+
             if ($record["m_id"] === $main['dj_no']) {
                 //保存されているデータを表示
                 $dj_output .= "<option value='{$record["m_id"]}' selected>{$record["str"]}</option>";
+                $dj_detail = $record["detail"];
             } else {
                 $dj_output .= "<option value='{$record["m_id"]}'>{$record["str"]}</option>";
             }
@@ -236,9 +243,15 @@ if ($s_count != 0) {
     $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     $dj_output = "<option value=''>--DJ--</option>";
+    $djArray = array();
 
     foreach ($result as $record) {
         if ($record["m_id"] !== 0) {
+
+            //詳細情報を配列にセット
+            array_push($djArray, $record["detail"]);
+
+            //selectをセット
             $dj_output .= "<option value='{$record["m_id"]}'>{$record["str"]}</option>";
         }
     }
@@ -285,6 +298,8 @@ $val = $stmt->fetch(PDO::FETCH_ASSOC);
 $simei = "お名前：　" . $val['kana_sei'] . "　" . $val['kana_mei'] . "様";
 $inquiry_com = $val['inquiry_comment'];
 
+$dj_out = json_encode($djArray);
+
 
 ?>
 
@@ -297,7 +312,6 @@ $inquiry_com = $val['inquiry_comment'];
     <script src="fullcalendar/lib/locales/ja.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <link rel="icon" type="image/png" href="./img/pzmlogo.png">
     <link href='fullcalendar/lib/main.css' rel='stylesheet' />
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
     <link rel="stylesheet" href="./css/style_m.css">
@@ -321,7 +335,7 @@ $inquiry_com = $val['inquiry_comment'];
                     <input type="hidden" name="party_no" value=<?= $party_no ?>>
                     <div class="inquiry">
                         <div class="in_lf">
-                            <div id="party_name"><?= $party_str ?></div>
+                            <div id="party_name">種別：　<?= $party_str ?></div>
                         </div>
                         <div class="in_rg">
                             <div id="free_meg"><?= $inquiry_com ?></div>
@@ -346,24 +360,24 @@ $inquiry_com = $val['inquiry_comment'];
                         <div class="place_main">
                             <div class="place">
                                 <div class="cp_ipselect cp_sl02">
-                                    <select class="plan_select" name="place_sel">
+                                    <select id="place_sel" class="plan_select" name="place_sel">
                                         <?= $place_output ?>
                                     </select>
                                 </div>
-                                <a href="">https://www.xxxx.com</a>
+                                <a id="p_url" href="">https://www.xxxx.com</a>
                             </div>
                             <div id="map"></div>
                         </div>
                         <div class="dj_main">
                             <div class="dj">
                                 <div class="cp_ipselect cp_sl02">
-                                    <select class="plan_select" name="dj_sel">
+                                    <select id="dj_sel" class="plan_select" name="dj_sel">
                                         <?= $dj_output ?>
                                     </select>
                                 </div>
                                 <button class="detail_btn">詳細</button>
                             </div>
-                            <div id="dj_detail">得意分野：all</div>
+                            <div id="dj_detail"><?= $dj_detail ?></div>
                         </div>
                     </div>
                 </div>
@@ -372,19 +386,20 @@ $inquiry_com = $val['inquiry_comment'];
             <div class="right">
                 <div class="btn_group">
                     <button type="submit" id="save_btn">保存</button>
-                    <button id="clear_btn">クリア</button>
+                    <button type="button" id="clear_btn">クリア</button>
                     <button type="submit" id="reserve_btn">予約</button>
+                    <button type="button" onclick="history.back()" class="back_btn">戻る</button>
                 </div>
-                <input type="checkbox" name="photo_chk" <?= $pho_flg ?>><label>写真および動画の使用許可</label>
-                <div>
+                <input id="photo_chk" type="checkbox" name="photo_chk" <?= $pho_flg ?>><label>写真および動画の使用許可</label>
+                <div class="open_day">
                     <label>開催日：</label>
                     <input id="party_ymd" type="text" name="party_ymd" value="<?= $par_ymd ?>">
                 </div>
-                <div>
+                <div class="p_val">
                     <label>料金：</label>
                     <input id="price" type="text" name="price" value="<?= $pri ?>">
                 </div>
-                <div>
+                <div class="sta">
                     <label>ステータス：</label>
                     <input id="status" type="text" readonly="readonly" disabled="disabled" value="<?= $status_str ?>">
                     <input type="hidden" id="status_int" name="status" value="">
@@ -393,7 +408,7 @@ $inquiry_com = $val['inquiry_comment'];
                     <button id="add_btn">追加</button>
                     <div class="supplier">
                         <div class="cp_ipselect cp_sl02">
-                            <select class="plan_select" name="option1_sel">
+                            <select id="supplier_sel" class="plan_select" name="option1_sel">
                                 <?= $option_output ?>
                             </select>
                         </div>
@@ -432,6 +447,11 @@ $inquiry_com = $val['inquiry_comment'];
                     $("#party_name").text("");
                     break;
             }
+        });
+
+        $(document).on("change", "#dj_sel", function() {
+            const dj_detail = <?= $dj_out ?>;
+            $("#dj_detail").text(dj_detail[$("#dj_sel").val() - 1]);
         });
 
         document.addEventListener('DOMContentLoaded', function() {
@@ -483,6 +503,18 @@ $inquiry_com = $val['inquiry_comment'];
         //保存ボタン
         $("#save_btn").on("click", function() {
             $("#status_int").val(2);
+        });
+        //クリアボタン
+        $("#clear_btn").on("click", function() {
+            $("#memory").val("");
+            $("#plan_sel option[value='']").prop('selected', true);
+            $("#place_sel option[value='']").prop('selected', true);
+            $("#dj_sel option[value='']").prop('selected', true);
+            $("#supplier_sel option[value='']").prop('selected', true);
+            $("#party_name").text("種別：　");
+            $("#party_ymd").val("");
+            $("#price").val("");
+            $("#photo_chk").removeAttr('checked').prop('checked', false).change()
         });
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaGFiCXKiZmeI_lVL9u7A5Tlqhe5G3xoA&callback=initMap&v=weekly" async></script>

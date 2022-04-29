@@ -19,6 +19,7 @@
 /*この下から記述*/
 /*ーーーーーーーーーーー*/
 body {
+	margin-top: 10px;
 	margin-right: auto;
 	margin-left: auto;
 	font-family: 'Kosugi Maru', sans-serif;
@@ -26,6 +27,11 @@ body {
 	border-radius: 10px;
 	padding-bottom: 10px;
 	border: 2px solid #696969;
+}
+
+input,
+textarea {
+	font-family: 'Kosugi Maru', sans-serif;
 }
 
 .left {
@@ -40,7 +46,7 @@ body {
 #memory {
 	resize: none;
 	width: 500px;
-	height: 100px;
+	height: 80px;
 	font-size: 12px;
 }
 
@@ -52,15 +58,13 @@ body {
 }
 
 .name {
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	font-size: 30px;
 }
 
 #party_name {
-	border: 1px solid;
 	width: 200px;
 	height: 30px;
-	border-radius: 3px;
 	padding-left: 5px;
 	padding-bottom: 2px;
 	margin-bottom: 10px;
@@ -80,7 +84,7 @@ body {
 	margin-bottom: 10px;
 	font-size: 12px;
 	width: 500px;
-	height: 70px;
+	height: 60px;
 }
 
 .inquiry {
@@ -101,7 +105,7 @@ body {
 	border-radius: 10px;
 	border: 2px solid #6495ed;
 	margin-right: 15px;
-	padding: 5px;
+	padding: 10px;
 }
 
 .cal_st {
@@ -116,6 +120,12 @@ body {
 	height: 250px;
 	border-radius: 10px;
 	border: 2px solid #6495ed;
+	padding: 10px;
+}
+
+#p_url {
+	padding-top: 6px;
+	padding-left: 7px;
 }
 
 .dj {
@@ -125,13 +135,15 @@ body {
 .dj_main {
 	border-radius: 10px;
 	border: 2px solid #6495ed;
+	padding: 10px;
+	margin-top: 20px;
 }
 
 #dj_detail {
 	border: 1px solid;
 	font-size: 12px;
-	width: 350px;
-	height: 130px;
+	width: 320px;
+	height: 140px;
 }
 
 .detail_btn {
@@ -141,6 +153,13 @@ body {
 	height: 32px;
 	color: #ffffff;
 	background-color: #84a2d4;
+	margin: 0 0 0 auto;
+	padding: 0;
+}
+
+.btn_group {
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 #save_btn {
@@ -153,12 +172,12 @@ body {
 }
 
 #clear_btn {
-	border: 1px solid #808080;
+	border: 1px solid #00ced1;
 	border-radius: 7px;
 	width: 80px;
 	height: 32px;
 	color: #ffffff;
-	background-color: #808080;
+	background-color: #00ced1;
 }
 
 #reserve_btn {
@@ -170,6 +189,15 @@ body {
 	background-color: #f08080;
 }
 
+.back_btn {
+	border: 1px solid #808080;
+	border-radius: 7px;
+	width: 80px;
+	height: 32px;
+	color: #ffffff;
+	background-color: #808080;
+}
+
 #add_btn {
 	border: 1px solid #fbca4d;
 	border-radius: 7px;
@@ -177,6 +205,7 @@ body {
 	height: 32px;
 	color: #ffffff;
 	background-color: #fbca4d;
+	margin-bottom: 10px;
 }
 
 .delete_btn {
@@ -194,9 +223,33 @@ body {
 }
 
 .supplier_group {
-	border: 2px solid #8b968d;
+	border-radius: 10px;
+	border: 2px solid #6495ed;
+	padding: 10px;
 	width: 420px;
-	height: 580px;
+	height: 507px;
+}
+
+.open_day {
+	margin-top: 15px;
+}
+
+#party_ymd {
+	border: none;
+	font-size: 16px;
+}
+
+#price {
+	font-size: 16px;
+}
+
+.p_val {
+	margin-top: 15px;
+}
+
+.sta {
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .supplier {

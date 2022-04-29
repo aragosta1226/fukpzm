@@ -39,12 +39,13 @@ DoKoDeMo DJ
   <h2>４：打ち合わせ画面</h2>
   打ち合わせ画面が表示される。
   打ち合わせ画面(赤で囲ってある部分)にはお問い合わせで入力された内容が反映されている。
-  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165911105-1fa0c0e1-677f-4082-a751-7f4c5611bd19.png">
+  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165915317-62c59d91-6bf6-4197-bc21-0e8231f141c0.png">
   ・セレクトボックスのパーティー種別、会場、DJ、オプションを選択したり、
-  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165912430-6059d225-0d1b-44e7-93aa-72c5dc1a291f.png">
+  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165915433-6c55a5de-6d0c-48b6-9f26-10c1c48b7453.png">
   画面左下のカレンダーから日付を選んだり、料金を入力します。<br>
-  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165913104-a3e9f05b-406c-441e-8b18-a3786a87de2e.png">
+  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165915504-ae10ba86-07c4-49fa-a563-c8f14df521c4.png">
   ・画面右上の「予約」ボタンをクリックすると選択したり入力したりした内容が保存されてステータスが予約状態になります。<br>
+  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165913582-39d2b5d2-2521-41d0-be95-404af3f50fca.png">
   ・画面右上の「保存」ボタンはステータスが保存状態になるだけで「予約」ボタンと変わらないです。
   　（予約か保存をした場合は、問い合わせ一覧にその内容が反映されます。<br>
   ・画面右上の「クリア」ボタンは入力した内容がすべてリセットされます。<br>

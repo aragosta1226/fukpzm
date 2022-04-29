@@ -22,9 +22,9 @@ DoKoDeMo DJ
   <h2>②ログイン画面に遷移するので、IDとパスワードを入力しログインする。</h2>
   ​①ID：aragosta<br>②Password：tonkotsu<br>
   <img width="auto" height="auto"src="https://user-images.githubusercontent.com/96280160/165899372-bdb6271e-0c77-4d38-a032-09e3f07f478e.png">
+  ユーザーを登録する場合は、画面下の青字CREATE ACCOUNTをクリックすると<br>
   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165904146-8bf29d45-eed4-4983-8cda-170746c6b118.png">
-  ※ユーザーを登録する場合は、画面下の青字CREATE ACCOUNTをクリックすると<br>
-  ボタン名称が変わるのでUserIDとPasswordを入力後ボタンを押すとユーザーが登録されます。<br>
+  ボタン名称がCREATE ACCOUNTに変わるのでUserIDとPasswordを入力後ボタンを押すとユーザーが登録されます。<br>
   ※TOPページに戻りたい場合は、画面下の赤字BACKで戻ります。<br>
   <br>
   <h2>③問い合わせ一覧が表示されるので、確認したい番号の横にチェックを入れて右上の「打ち合わせ」ボタンを押す。</h2>

@@ -45,6 +45,8 @@ DoKoDeMo DJ
   画面左下のカレンダーから日付を選んだり、料金を入力します。<br>
   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165915504-ae10ba86-07c4-49fa-a563-c8f14df521c4.png">
   ・画面右上の「予約」ボタンをクリックすると選択したり入力したりした内容が保存されてステータスが予約状態になります。<br>
+  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165916074-013aba06-9bf7-4652-ab15-69d5a3c54b5b.png">
+  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165913582-39d2b5d2-2521-41d0-be95-404af3f50fca.png">
   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165913582-39d2b5d2-2521-41d0-be95-404af3f50fca.png">
   ・画面右上の「保存」ボタンはステータスが保存状態になるだけで「予約」ボタンと変わらないです。
   　（予約か保存をした場合は、問い合わせ一覧にその内容が反映されます。<br>

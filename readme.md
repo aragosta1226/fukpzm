@@ -16,10 +16,10 @@ DoKoDeMo DJ
    <h2>②打合せの内容と準備の状況が確認できる</h2>
    <h2>③お問い合わせ内容を記載の上、「送信する」ボタンをクリックするとinquiryテーブルにお問い合わせデータが登録される。</h2>
 ​   <h1>運営側</h1>
-  <h2>①TOPページ https://fukpzm.com/ の右上にある「管理者ログイン」ボタンを押す。</h2><br>
+  <h2>①TOPページ https://fukpzm.com/ の右上にある「管理者ログイン」ボタンを押す。</h2>
   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165744652-124f2767-668c-4605-b91b-c381f3d08d6c.png"><br>
   <br>
-  <h2>②ログイン画面に遷移するので、IDとパスワードを入力しログインする。</h2><br>
+  <h2>②ログイン画面に遷移するので、IDとパスワードを入力しログインする。</h2>
   ​①ID：aragosta<br>②Password：tonkotsu<br>
   <img width="auto" height="auto"src="https://user-images.githubusercontent.com/96280160/165899372-bdb6271e-0c77-4d38-a032-09e3f07f478e.png">
   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165904146-8bf29d45-eed4-4983-8cda-170746c6b118.png">

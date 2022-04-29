@@ -90,5 +90,5 @@
   <h2>８：ログアウト</h2>
 　　管理者機能からログアウトしたい場合は、問い合わせ一覧の右上の「LOGOUT」ボタンを押すことでログアウト出来ます。
   　その後は、ログイン画面に戻ります。
-  <img width="auto" height="auto" src="hhttps://user-images.githubusercontent.com/96280160/165942267-c5567aca-36c3-410c-a049-7fcfaf2b025c.png">
+  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165942267-c5567aca-36c3-410c-a049-7fcfaf2b025c.png">
 ​

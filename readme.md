@@ -13,13 +13,18 @@ DoKoDeMo DJ
 ## 操作方法
    <h1>ユーザー側</h1>
    <h2>①TOPページ：https://fukpzm.com/</h2>
+   TOPページの一番下に問い合わせフォームがあります。そちらからお問い合わせ内容が送信できる様になっています。
+   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165939063-74464f65-7a95-432c-9a8e-3c9f7744e872.png">
+   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165939230-684070ae-521c-406f-9981-90f47fd35a84.png">
+
    <h2>②打合せの内容と準備の状況が確認できる</h2>
+   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165744652-124f2767-668c-4605-b91b-c381f3d08d6c.png">
    <h2>③お問い合わせ内容を記載の上、「送信する」ボタンをクリックするとinquiryテーブルにお問い合わせデータが登録される。</h2>
 
 ​  <h1>運営側</h1>
   <h2>１：TOP画面</h2>
   TOPページ https://fukpzm.com/ の右上にある「管理者ログイン」ボタンを押す。
-  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165744652-124f2767-668c-4605-b91b-c381f3d08d6c.png"><br>
+  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165744652-124f2767-668c-4605-b91b-c381f3d08d6c.png">
   <br>
   <h2>２：ログイン画面</h2>
   ログイン画面に遷移するので、IDとパスワードを入力しログインする。<br>

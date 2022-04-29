@@ -43,6 +43,7 @@ DoKoDeMo DJ
   ・セレクトボックスのパーティー種別、会場、DJ、オプションを選択したり、
   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165912430-6059d225-0d1b-44e7-93aa-72c5dc1a291f.png">
   画面左下のカレンダーから日付を選んだり、料金を入力します。<br>
+  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165913104-a3e9f05b-406c-441e-8b18-a3786a87de2e.png">
   ・画面右上の「予約」ボタンをクリックすると選択したり入力したりした内容が保存されてステータスが予約状態になります。<br>
   ・画面右上の「保存」ボタンはステータスが保存状態になるだけで「予約」ボタンと変わらないです。
   　（予約か保存をした場合は、問い合わせ一覧にその内容が反映されます。<br>

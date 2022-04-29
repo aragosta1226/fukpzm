@@ -75,8 +75,10 @@ DoKoDeMo DJ
   問い合わせ一覧画面に戻り、問い合わせ内容を１つ選び「スケジュール表示」ボタンを押します。
   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165937895-f477e547-73ea-4de9-b21a-c3c8ade4d7af.png">
  スケジュール画面に遷移します。ここではスケジュール入力画面で入力された内容がガントチャート形式で表示されます。<br>
- ※画面上にあるセレクトボックスはまだ機能しないです。
+ ※画面上にあるセレクトボックスはまだ機能しないです。<br>
  「戻る」ボタンを押すと問い合わせ一覧画面に戻ります。
+  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165937895-f477e547-73ea-4de9-b21a-c3c8ade4d7af.png">
+
 ​
   <h2>７：問い合わせの削除</h2>
   あまりないと思いますが問い合わせ内容を削除したい場合は、問い合わせ一覧画面に戻り、削除したい問い合わせ内容を選択して

@@ -19,8 +19,8 @@
 ​
 ## 操作方法
    <h2>[ユーザー側]</h2>
-   <h2>１：TOPページ：https://fukpzm.com/</h2>
-   TOPページの一番下に問い合わせフォームがあります。
+   <h2>１：TOPページ</h2>
+   TOPページ https://fukpzm.com/ の一番下に問い合わせフォームがあります。
    <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165939063-74464f65-7a95-432c-9a8e-3c9f7744e872.png">
    フォームからお問い合わせ内容が送信できる様になっています。
    <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165939230-684070ae-521c-406f-9981-90f47fd35a84.png">

@@ -66,8 +66,8 @@
 打ち合わせ画面右上の「クリア」ボタンは入力した内容がすべてリセットされます。<br>
 <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/166083565-fe56acd8-976a-44b2-9125-0c7fce6611bc.png">
 打ち合わせ画面右上の「戻る」ボタンは問い合わせ一覧画面に戻ります。<br>
-打ち合わせ画面の「詳細」・「追加」・「削除」ボタンはまだ未実装です。<br>
-打ち合わせ画面の会場のマップやＵＲＬの変更も未実装です。（ここは出来ることは確認しています。）<br>
+<img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/166083635-ef6f7278-1903-4ec8-a4f2-e97001c0a3d5.png">
+打ち合わせ画面の「詳細」・「追加」・「削除」ボタンと、会場のマップやＵＲＬの変更は未実装です。（ここは出来ることは確認しています。）<br>
 <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165937444-54fb5876-4f8b-4785-bef6-28a56a20273a.png">
 
   <h2>５：準備のスケジュール状況の登録と更新</h2>

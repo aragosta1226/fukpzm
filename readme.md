@@ -1,7 +1,5 @@
-# プロダクトのタイトル
+# DoKoDeMo DJ
 <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/166083787-97ab9f64-de4e-42bf-bbbc-fcf12af71211.png">
-<strong>DoKoDeMo DJ</strong><br>
-〜福岡のパーティー絶対盛り上げる.com〜<br>
 
 ## プロダクトの紹介
 ​<img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/166084038-9d57a81d-91f2-4127-8ca5-16eb430b0417.png">

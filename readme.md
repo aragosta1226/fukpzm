@@ -12,11 +12,12 @@
   ④パーティーのイメージの共有のための画面<br>
 
 - 開発担当箇所について<br>
- <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/166085699-4ba75a41-bd87-4653-9ee1-aa36a3cac843.jpg">
+ <img width="200" height="300" src="https://user-images.githubusercontent.com/96280160/166085699-4ba75a41-bd87-4653-9ee1-aa36a3cac843.jpg">
   田中：TOP画面／ログイン画面／問い合わせ一覧画面<br>
-  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/166085673-83b62baf-624d-4557-92ca-2336c201509a.png">
+  <img width="200" height="200" src="https://user-images.githubusercontent.com/96280160/166085673-83b62baf-624d-4557-92ca-2336c201509a.png">
   原田：打ち合わせ画面／スケジュール入力画面／スケジュール表示画面<br>
 ​
+
 ## 操作方法
    <h2>[ユーザー側]</h2>
    <h2>１：TOPページ</h2>

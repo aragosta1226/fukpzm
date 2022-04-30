@@ -66,7 +66,7 @@ foreach ($result as $record) {
     "eYYYY" => date('Y', strtotime($record["start_ymd"] . " " . $record["days"] . " day")),
     "eMM" => date('m', strtotime($record["start_ymd"] . " " . $record["days"] . " day")),
     "eDD" => date('d', strtotime($record["start_ymd"] . " " . $record["days"] . " day")),
-    "progress" => $record["progress"]
+    "progress" => intval($record["progress"])
   ));
 }
 

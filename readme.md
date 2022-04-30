@@ -1,6 +1,6 @@
 # プロダクトのタイトル
 <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/166083787-97ab9f64-de4e-42bf-bbbc-fcf12af71211.png">
-<strong font-size="28px">DoKoDeMo DJ</strong><br>
+<p font-size="28px"><strong>DoKoDeMo DJ</strong></p><br>
 〜福岡のパーティー絶対盛り上げる.com〜<br>
 
 ## プロダクトの紹介

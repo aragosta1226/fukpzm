@@ -40,7 +40,7 @@
   <img width="auto" height="auto"src="https://user-images.githubusercontent.com/96280160/165899372-bdb6271e-0c77-4d38-a032-09e3f07f478e.png">
   ユーザーを登録する場合は、画面下の青字CREATE ACCOUNTをクリックすると<br>
   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165904146-8bf29d45-eed4-4983-8cda-170746c6b118.png">
-  ボタン名称がCREATE ACCOUNTに変わるのでUserIDとPasswordを入力後ボタンを押すとユーザーが登録されます。<br>
+  ボタン名称がCREATE ACCOUNTに変わるのでUserIDとPasswordを入力後ボタンを押すとユーザーが登録されます。
   TOPページに戻りたい場合は、画面下の赤字BACKで戻ります。<br>
   <br>
   <h2>３：問い合わせ一覧画面</h2>
@@ -62,6 +62,7 @@
   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165917347-81be3c7b-ead7-45c8-b0fc-ec4f653a4f39.png">
   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165917626-8e0f5081-b298-4bee-8ec0-cd0aca944fa4.png">
 打ち合わせ画面右上の「保存」ボタンはステータスが保存状態になるだけで「予約」ボタンと変わりません。（予約か保存をした場合は、問い合わせ一覧にその内容が反映されます。<br>
+<img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/166083494-bb4246ec-7f2c-40ed-8d36-9074e6019416.png">
 打ち合わせ画面右上の「クリア」ボタンは入力した内容がすべてリセットされます。<br>
 打ち合わせ画面右上の「戻る」ボタンは問い合わせ一覧画面に戻ります。<br>
 打ち合わせ画面の「詳細」・「追加」・「削除」ボタンはまだ未実装です。<br>

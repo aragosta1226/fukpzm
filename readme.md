@@ -82,7 +82,7 @@
   問い合わせ一覧画面に戻り、問い合わせ内容を１つ選び「スケジュール表示」ボタンを押します。
   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165937895-f477e547-73ea-4de9-b21a-c3c8ade4d7af.png">
  スケジュール画面に遷移します。ここではスケジュール入力画面で入力された内容がガントチャート形式で表示されます。<br>
- ※画面上にあるセレクトボックスはまだ機能しないです。<br>
+ ※画面上にあるセレクトボックスはまだ機能しないです。スケジュールを入力していない場合は何も表示されません。<br>
  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/166083270-7c035657-fac3-4908-a5b7-a8ed4898bc30.png">
  「戻る」ボタンを押すと問い合わせ一覧画面に戻ります。
 

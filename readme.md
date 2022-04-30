@@ -18,7 +18,7 @@
   原田：打ち合わせ画面／スケジュール入力画面／スケジュール表示画面<br>
 ​
 ## 操作方法
-   <h2>ユーザー側</h2>
+   <h2>[ユーザー側]</h2>
    <h2>１：TOPページ：https://fukpzm.com/</h2>
    TOPページの一番下に問い合わせフォームがあります。
    <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165939063-74464f65-7a95-432c-9a8e-3c9f7744e872.png">
@@ -31,7 +31,7 @@
    お問い合わせ内容を記載の上、「送信する」ボタンをクリックするとinquiryテーブルにお問い合わせデータが登録される。
    <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165940594-17467a2e-9421-49cb-ab94-b65c172af45c.png">
 
-​  <h2>運営側</h2>
+​  <h2>[運営側]</h2>
   <h2>１：TOP画面</h2>
   TOPページ https://fukpzm.com/ の右上にある「管理者ログイン」ボタンを押す。
   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/96280160/165744652-124f2767-668c-4605-b91b-c381f3d08d6c.png">

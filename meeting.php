@@ -517,8 +517,7 @@ $dj_out = json_encode($djArray);
             $("#photo_chk").removeAttr('checked').prop('checked', false).change()
         });
     </script>
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaGFiCXKiZmeI_lVL9u7A5Tlqhe5G3xoA&callback=initMap&v=weekly" async></script> -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAanbIwFlVoNeWfX5hPR7EqvhIHmdrd6vA&callback=initMap&v=weekly" async></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=" async></script>
 
 </body>
 

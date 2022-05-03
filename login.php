@@ -61,8 +61,8 @@ if (!empty($_POST)) {
             //同じemailでの登録が過去にあったかチェック。あった場合エラー（未実装）
 
             //ユーザーセット
-            $sql = "INSERT INTO user_master (id,user_id,password,power,history_no,created_at,updated_at,del_f) " .
-                "VALUES (NULL, '$user_id', '$password', 1, 0, now(), now(), '0')";
+            $sql = "INSERT INTO user_master (id,user_id,password,inquiry_id,power,history_no,created_at,updated_at,del_f) " .
+                "VALUES (NULL, '$user_id', '$password', 0, 1, 0, now(), now(), '0')";
 
             // SQL実行
             $stmt = $pdo->prepare($sql);

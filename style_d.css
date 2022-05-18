@@ -1,0 +1,41 @@
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#main {
+	display: flex;
+}
+
+#drawing {
+	width: 970px;
+	height: 700px;
+	border: 2px solid black;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.door {
+	width: 100px;
+	height: 10px;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#app {
+	width: 540px;
+	height: 700px;
+	border: 2px solid black;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: 5px;
+}

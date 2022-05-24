@@ -18,6 +18,12 @@
 /*ーーーーーーーーーーー*/
 /*この下から記述*/
 /*ーーーーーーーーーーー*/
+header {
+	display: flex;
+	align-items: center;
+	border-bottom: 2px solid #1e90ff;
+}
+
 body {
 	margin-top: 10px;
 	margin-right: auto;
@@ -26,7 +32,7 @@ body {
 	width: 1400px;
 	border-radius: 10px;
 	padding-bottom: 10px;
-	border: 2px solid #696969;
+	background-color: #f5f5f5;
 }
 
 input,
@@ -35,8 +41,11 @@ textarea {
 }
 
 .left {
-	margin-top: 10px;
 	margin-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	height: 640px;
+	border-right: 2px solid #1e90ff;
 }
 
 .main {
@@ -45,29 +54,27 @@ textarea {
 
 #memory {
 	resize: none;
-	width: 500px;
-	height: 80px;
+	margin-top: 15px;
+	width: 300px;
+	height: 340px;
 	font-size: 12px;
 }
 
 .sup_coment {
 	resize: none;
-	width: 400px;
-	height: 100px;
+	width: 350px;
+	height: 160px;
 	font-size: 12px;
 }
 
 .name {
-	margin-bottom: 20px;
-	font-size: 30px;
+	font-size: 15px;
+	width: 300px;
 }
 
 #party_name {
-	width: 200px;
-	height: 30px;
-	padding-left: 5px;
-	padding-bottom: 2px;
-	margin-bottom: 10px;
+	width: 400px;
+	margin-left: 20px;
 }
 
 #period {
@@ -78,13 +85,13 @@ textarea {
 }
 
 #free_meg {
-	border: 2px solid;
+	margin-top: 15px;
 	padding-left: 5px;
 	padding-bottom: 2px;
 	margin-bottom: 10px;
 	font-size: 12px;
-	width: 500px;
-	height: 60px;
+	width: 300px;
+	height: 200px;
 }
 
 .inquiry {
@@ -93,7 +100,6 @@ textarea {
 
 .in_lf {
 	margin-right: 10px;
-	width: 200px;
 }
 
 .plan_main {
@@ -102,14 +108,12 @@ textarea {
 }
 
 .plan {
-	border-radius: 10px;
-	border: 2px solid #6495ed;
-	margin-right: 15px;
-	padding: 10px;
+	margin-left: 30px;
 }
 
 .cal_st {
-	width: 500px;
+	margin-top: 10px;
+	width: 400px;
 }
 
 .place {
@@ -118,9 +122,8 @@ textarea {
 
 .place_main {
 	height: 250px;
-	border-radius: 10px;
-	border: 2px solid #6495ed;
 	padding: 10px;
+	border-right: 2px solid #1e90ff;
 }
 
 #p_url {
@@ -133,17 +136,16 @@ textarea {
 }
 
 .dj_main {
-	border-radius: 10px;
-	border: 2px solid #6495ed;
 	padding: 10px;
-	margin-top: 20px;
+	border-right: 2px solid #1e90ff;
 }
 
 #dj_detail {
 	border: 1px solid;
 	font-size: 12px;
 	width: 320px;
-	height: 140px;
+	height: 160px;
+	background: #ffffff;
 }
 
 .detail_btn {
@@ -158,8 +160,7 @@ textarea {
 }
 
 .btn_group {
-	margin-top: 10px;
-	margin-bottom: 20px;
+	margin-left: 250px;
 }
 
 #save_btn {
@@ -219,15 +220,13 @@ textarea {
 
 #status {
 	border: none;
-	background-color: #ffffff;
+	background-color: #f5f5f5;
 }
 
 .supplier_group {
-	border-radius: 10px;
-	border: 2px solid #6495ed;
 	padding: 10px;
-	width: 420px;
-	height: 507px;
+	width: 370px;
+	height: 200px;
 }
 
 .open_day {
@@ -237,6 +236,7 @@ textarea {
 #party_ymd {
 	border: none;
 	font-size: 16px;
+	background-color: #f5f5f5;
 }
 
 #price {
@@ -256,9 +256,6 @@ textarea {
 	display: flex;
 }
 
-.right {
-	margin-left: 15px;
-}
 
 .fc {
 	font-size: 0.5em !important;
@@ -333,5 +330,35 @@ textarea {
 }
 
 #map {
-	height: 80%;
+	height: 70%;
+}
+
+.right_down {
+	display: flex;
+	margin-top: 10px;
+	width: 1070px;
+	border-top: 2px solid #1e90ff;
+}
+
+#logo {
+	width: 50px;
+}
+
+.logo {
+	width: 30px;
+	margin-right: 5px;
+}
+
+.logo_p {
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+}
+
+.ppp {
+	padding-bottom: 9px;
+}
+
+.min_right {
+	margin-left: 200px;
 }

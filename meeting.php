@@ -243,6 +243,7 @@ if ($s_count != 0) {
     $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     $dj_output = "<option value=''>--DJ--</option>";
+    $dj_detail = "";
     $djArray = array();
 
     foreach ($result as $record) {
@@ -323,6 +324,17 @@ $dj_out = json_encode($djArray);
 </head>
 
 <body>
+    <header>
+        <img id="logo" src="./img/headerlogo.png" alt="">
+        <div id="party_name">パーティー種別：　<?= $party_str ?></div>
+        <div class="name"><?= $simei ?></div>
+        <div class="btn_group">
+            <button type="submit" id="save_btn">保存</button>
+            <button type="button" id="clear_btn">クリア</button>
+            <button type="submit" id="reserve_btn">予約</button>
+            <button type="button" onclick="history.back()" class="back_btn">戻る</button>
+        </div>
+    </header>
 
     <form action="rdata_create.php" method="POST" name="set">
         <div class="main">
@@ -330,34 +342,66 @@ $dj_out = json_encode($djArray);
             <div class="left">
                 <!-- お客様問い合わせ情報、議事録、プラン -->
                 <div class="customer">
-                    <div class="name"><?= $simei ?></div>
                     <input type="hidden" name="user_id" value=<?= $user_id ?>>
                     <input type="hidden" name="party_no" value=<?= $party_no ?>>
+                    <div class="logo_p">
+                        <img class="logo" src="./img/meeting-preview.png" alt="">
+                        <div>お問い合わせ内容：</div>
+                    </div>
                     <div class="inquiry">
-                        <div class="in_lf">
-                            <div id="party_name">種別：　<?= $party_str ?></div>
-                        </div>
                         <div class="in_rg">
                             <div id="free_meg"><?= $inquiry_com ?></div>
+                            <div>メモ：</div>
                             <textarea name="memory" id="memory" cols="60" rows="6"><?= $memory ?></textarea>
-
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="right">
                 <!-- プラン、カレンダー、会場、DJ -->
                 <div class="plan_main">
                     <!-- プラン、カレンダー -->
                     <div class="plan">
-                        <div class="cp_ipselect cp_sl02">
-                            <select id="plan_sel" class="plan_select" name="plan_sel">
-                                <?= $party_output ?>
-                            </select>
+                        <div class="logo_p">
+                            <img class="logo" src="./img/clender.png" alt="">
+                            <div>スケジュールカレンダー：</div>
                         </div>
                         <div class="cal_st" id="cal"></div>
                     </div>
+                    <div class="min_right">
+                        <div class="logo_p">
+                            <div class="ppp">パーティー種別：</div>
+                            <div class="cp_ipselect cp_sl02">
+                                <select id="plan_sel" class="plan_select" name="plan_sel">
+                                    <?= $party_output ?>
+                                </select>
+                            </div>
+                        </div>
+                        <input id="photo_chk" type="checkbox" name="photo_chk" <?= $pho_flg ?>><label>写真および動画の使用許可</label>
+                        <div class="open_day">
+                            <label>開催日：</label>
+                            <input id="party_ymd" type="text" name="party_ymd" value="<?= $par_ymd ?>">
+                        </div>
+                        <div class="p_val">
+                            <label>料金：</label>
+                            <input id="price" type="text" name="price" value="<?= $pri ?>">
+                        </div>
+                        <div class="sta">
+                            <label>ステータス：</label>
+                            <input id="status" type="text" readonly="readonly" disabled="disabled" value="<?= $status_str ?>">
+                            <input type="hidden" id="status_int" name="status" value="">
+                        </div>
+                    </div>
+                </div>
+                <div class="right_down">
                     <!-- 会場、DJ -->
                     <div class="place_dj">
                         <div class="place_main">
+                            <div class="logo_p">
+                                <img class="logo" src="./img/shop.png" alt="">
+                                <div>会場選択：</div>
+                            </div>
                             <div class="place">
                                 <div class="cp_ipselect cp_sl02">
                                     <select id="place_sel" class="plan_select" name="place_sel">
@@ -368,55 +412,39 @@ $dj_out = json_encode($djArray);
                             </div>
                             <div id="map"></div>
                         </div>
-                        <div class="dj_main">
-                            <div class="dj">
-                                <div class="cp_ipselect cp_sl02">
-                                    <select id="dj_sel" class="plan_select" name="dj_sel">
-                                        <?= $dj_output ?>
-                                    </select>
-                                </div>
-                                <button class="detail_btn">詳細</button>
+                    </div>
+                    <div class="dj_main">
+                        <div class="logo_p">
+                            <img class="logo" src="./img/DJ3.png" alt="">
+                            <div>ＤＪ選択：</div>
+                        </div>
+                        <div class="dj">
+                            <div class="cp_ipselect cp_sl02">
+                                <select id="dj_sel" class="plan_select" name="dj_sel">
+                                    <?= $dj_output ?>
+                                </select>
                             </div>
-                            <div id="dj_detail"><?= $dj_detail ?></div>
+                            <button class="detail_btn">詳細</button>
                         </div>
+                        <div id="dj_detail"><?= $dj_detail ?></div>
                     </div>
-                </div>
-            </div>
-
-            <div class="right">
-                <div class="btn_group">
-                    <button type="submit" id="save_btn">保存</button>
-                    <button type="button" id="clear_btn">クリア</button>
-                    <button type="submit" id="reserve_btn">予約</button>
-                    <button type="button" onclick="history.back()" class="back_btn">戻る</button>
-                </div>
-                <input id="photo_chk" type="checkbox" name="photo_chk" <?= $pho_flg ?>><label>写真および動画の使用許可</label>
-                <div class="open_day">
-                    <label>開催日：</label>
-                    <input id="party_ymd" type="text" name="party_ymd" value="<?= $par_ymd ?>">
-                </div>
-                <div class="p_val">
-                    <label>料金：</label>
-                    <input id="price" type="text" name="price" value="<?= $pri ?>">
-                </div>
-                <div class="sta">
-                    <label>ステータス：</label>
-                    <input id="status" type="text" readonly="readonly" disabled="disabled" value="<?= $status_str ?>">
-                    <input type="hidden" id="status_int" name="status" value="">
-                </div>
-                <div class="supplier_group">
-                    <button id="add_btn">追加</button>
-                    <div class="supplier">
-                        <div class="cp_ipselect cp_sl02">
-                            <select id="supplier_sel" class="plan_select" name="option1_sel">
-                                <?= $option_output ?>
-                            </select>
+                    <div class="supplier_group">
+                        <!-- <button id="add_btn">追加</button> -->
+                        <div class="logo_p">
+                            <img class="logo" src="./img/mitumori-preview.png" alt="">
+                            <div>オプション選択：</div>
                         </div>
-                        <button class="detail_btn">詳細</button>
-                        <button class="delete_btn">削除</button>
+                        <div class="supplier">
+                            <div class="cp_ipselect cp_sl02">
+                                <select id="supplier_sel" class="plan_select" name="option1_sel">
+                                    <?= $option_output ?>
+                                </select>
+                            </div>
+                            <button class="detail_btn">詳細</button>
+                            <!-- <button class="delete_btn">削除</button> -->
+                        </div>
+                        <textarea name="option1_txt" class="sup_coment" cols="30" rows="4"><?= $opt1_txt ?></textarea>
                     </div>
-                    <textarea name="option1_txt" class="sup_coment" cols="30" rows="4"><?= $opt1_txt ?></textarea>
-
                 </div>
             </div>
         </div>
@@ -517,7 +545,8 @@ $dj_out = json_encode($djArray);
             $("#photo_chk").removeAttr('checked').prop('checked', false).change()
         });
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=" async></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaGFiCXKiZmeI_lVL9u7A5Tlqhe5G3xoA&callback=initMap&v=weekly" async></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAanbIwFlVoNeWfX5hPR7EqvhIHmdrd6vA&callback=initMap&v=weekly" async></script>
 
 </body>
 

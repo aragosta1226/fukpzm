@@ -13,12 +13,14 @@
 	-o-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
+	font-size: 20px;
 }
 
 /*ーーーーーーーーーーー*/
 /*この下から記述*/
 /*ーーーーーーーーーーー*/
 header {
+	padding-top: 30px;
 	display: flex;
 	align-items: center;
 	border-bottom: 2px solid #1e90ff;
@@ -44,7 +46,7 @@ textarea {
 	margin-left: 10px;
 	padding-top: 10px;
 	padding-right: 10px;
-	height: 640px;
+	height: 700px;
 	border-right: 2px solid #1e90ff;
 }
 
@@ -56,25 +58,27 @@ textarea {
 	resize: none;
 	margin-top: 15px;
 	width: 300px;
-	height: 340px;
-	font-size: 12px;
+	height: 400px;
+	font-size: 15px;
 }
 
 .sup_coment {
 	resize: none;
 	width: 350px;
 	height: 160px;
-	font-size: 12px;
+	font-size: 15px;
 }
 
 .name {
-	font-size: 15px;
-	width: 300px;
+	font-size: 21px;
+	width: 400px;
 }
 
 #party_name {
 	width: 400px;
 	margin-left: 20px;
+	/* margin-right: 20px; */
+	font-size: 21px;
 }
 
 #period {
@@ -89,7 +93,7 @@ textarea {
 	padding-left: 5px;
 	padding-bottom: 2px;
 	margin-bottom: 10px;
-	font-size: 12px;
+	font-size: 15px;
 	width: 300px;
 	height: 200px;
 }
@@ -142,7 +146,7 @@ textarea {
 
 #dj_detail {
 	border: 1px solid;
-	font-size: 12px;
+	font-size: 15px;
 	width: 320px;
 	height: 160px;
 	background: #ffffff;
@@ -160,7 +164,7 @@ textarea {
 }
 
 .btn_group {
-	margin-left: 250px;
+	margin-left: 150px;
 }
 
 #save_btn {
@@ -221,6 +225,7 @@ textarea {
 #status {
 	border: none;
 	background-color: #f5f5f5;
+	font-size: 20PX;
 }
 
 .supplier_group {
@@ -235,12 +240,12 @@ textarea {
 
 #party_ymd {
 	border: none;
-	font-size: 16px;
+	font-size: 20px;
 	background-color: #f5f5f5;
 }
 
 #price {
-	font-size: 16px;
+	font-size: 20px;
 }
 
 .p_val {
@@ -258,11 +263,17 @@ textarea {
 
 
 .fc {
-	font-size: 0.5em !important;
+	/* font-size: 0.5em !important; */
 }
 
 .fc table {
-	font-size: 0.5em !important;
+	/* font-size: 0.5em !important; */
+}
+
+
+.fc .fc-toolbar-title {
+    font-size: 1.75em;
+    margin: 0;
 }
 
 .cp_ipselect {
@@ -327,6 +338,7 @@ textarea {
 .cp_ipselect.cp_sl02 select {
 	padding: 8px 38px 8px 8px;
 	color: black;
+	font-size: 18px;
 }
 
 #map {
@@ -336,7 +348,7 @@ textarea {
 .right_down {
 	display: flex;
 	margin-top: 10px;
-	width: 1070px;
+	width: 1100px;
 	border-top: 2px solid #1e90ff;
 }
 

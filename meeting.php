@@ -324,19 +324,19 @@ $dj_out = json_encode($djArray);
 </head>
 
 <body>
-    <header>
-        <img id="logo" src="./img/headerlogo.png" alt="">
-        <div id="party_name">パーティー種別：　<?= $party_str ?></div>
-        <div class="name"><?= $simei ?></div>
-        <div class="btn_group">
-            <button type="submit" id="save_btn">保存</button>
-            <button type="button" id="clear_btn">クリア</button>
-            <button type="submit" id="reserve_btn">予約</button>
-            <button type="button" onclick="history.back()" class="back_btn">戻る</button>
-        </div>
-    </header>
-
     <form action="rdata_create.php" method="POST" name="set">
+        <header>
+            <img id="logo" src="./img/headerlogo.png" alt="">
+            <div id="party_name">パーティー種別：　<?= $party_str ?></div>
+            <div class="name"><?= $simei ?></div>
+            <div class="btn_group">
+                <button type="submit" id="save_btn">保存</button>
+                <button type="button" id="clear_btn">クリア</button>
+                <button type="submit" id="reserve_btn">予約</button>
+                <button type="button" onclick="history.back()" class="back_btn">戻る</button>
+            </div>
+        </header>
+
         <div class="main">
             <!-- 打ち合わせ画面の左側（お客様問い合わせ情報、議事録、プラン、カレンダー、会場、DJ -->
             <div class="left">
@@ -385,7 +385,7 @@ $dj_out = json_encode($djArray);
                         </div>
                         <div class="p_val">
                             <label>料金：</label>
-                            <input id="price" type="text" name="price" value="<?= $pri ?>">
+                            <input id="price" type="text" name="price" value="<?= $pri ?>">円
                         </div>
                         <div class="sta">
                             <label>ステータス：</label>
